@@ -1,0 +1,78 @@
+name: Skill Proposal
+description: Propose a new person skill or request a review of sources before implementation.
+title: "[Skill Proposal] "
+labels:
+  - proposal
+body:
+  - type: input
+    id: person
+    attributes:
+      label: Person
+      description: Who is this skill about?
+      placeholder: Zeng Guofan
+    validations:
+      required: true
+
+  - type: input
+    id: skill_name
+    attributes:
+      label: Proposed skill name
+      description: Suggested folder / skill name in lowercase hyphen format
+      placeholder: zeng-guofan
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this person become a skill?
+      description: What kind of problems can this skill help solve?
+      placeholder: This person has a distinct way of leading teams, handling crises, or making decisions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: primary_sources
+    attributes:
+      label: Primary sources
+      description: Books, letters, diaries, speeches, interviews, papers, or other first-hand materials
+      placeholder: |
+        - 《曾国藩家书》
+        - 《曾国藩日记》
+    validations:
+      required: true
+
+  - type: textarea
+    id: secondary_sources
+    attributes:
+      label: Secondary sources
+      description: Biographies, academic papers, or research that help interpret the primary materials
+      placeholder: |
+        - 张宏杰《曾国藩的正面与侧面》
+        - 年谱、研究论文
+
+  - type: textarea
+    id: disputed_points
+    attributes:
+      label: Low-confidence or disputed materials
+      description: Popular sayings, contested works, or sources that should be handled carefully
+      placeholder: |
+        - 《冰鉴》
+        - 网络流传名言
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected output style
+      description: If the skill is built, how should it answer users?
+      placeholder: Give a diagnosis, first actions, what not to do, and a 7-day / 30-day plan.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I believe this proposal is based on identifiable sources rather than quote aggregation
+          required: true
+        - label: I understand the repository does not accept harmful, manipulative, or pseudoscientific guidance
+          required: true
