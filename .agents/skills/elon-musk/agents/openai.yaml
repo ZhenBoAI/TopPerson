@@ -1,0 +1,4 @@
+interface:
+  display_name: "Elon Musk"
+  short_description: "按Elon Musk的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $elon-musk to analyze this situation in Elon Musk式思路，并给出可执行建议。"

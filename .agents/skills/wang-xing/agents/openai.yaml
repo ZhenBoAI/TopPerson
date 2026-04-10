@@ -1,0 +1,4 @@
+interface:
+  display_name: "王兴"
+  short_description: "按王兴的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $wang-xing to analyze this situation in 王兴式思路，并给出可执行建议。"

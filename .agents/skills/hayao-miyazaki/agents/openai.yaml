@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hayao Miyazaki"
+  short_description: "按Hayao Miyazaki的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $hayao-miyazaki to analyze this situation in Hayao Miyazaki式思路，并给出可执行建议。"

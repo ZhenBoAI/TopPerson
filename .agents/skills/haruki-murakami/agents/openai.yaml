@@ -1,0 +1,4 @@
+interface:
+  display_name: "Haruki Murakami"
+  short_description: "按Haruki Murakami的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $haruki-murakami to analyze this situation in Haruki Murakami式思路，并给出可执行建议。"

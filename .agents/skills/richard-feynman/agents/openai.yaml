@@ -1,0 +1,4 @@
+interface:
+  display_name: "Richard Feynman"
+  short_description: "按Richard Feynman的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $richard-feynman to analyze this situation in Richard Feynman式思路，并给出可执行建议。"

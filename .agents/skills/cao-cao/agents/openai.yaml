@@ -1,0 +1,4 @@
+interface:
+  display_name: "曹操"
+  short_description: "按曹操的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $cao-cao to analyze this situation in 曹操式思路，并给出可执行建议。"

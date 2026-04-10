@@ -1,0 +1,4 @@
+interface:
+  display_name: "段永平"
+  short_description: "按段永平的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $duan-yongping to analyze this situation in 段永平式思路，并给出可执行建议。"

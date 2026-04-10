@@ -1,0 +1,4 @@
+interface:
+  display_name: "Konosuke Matsushita"
+  short_description: "按Konosuke Matsushita的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $konosuke-matsushita to analyze this situation in Konosuke Matsushita式思路，并给出可执行建议。"

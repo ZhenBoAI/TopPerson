@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jack Ma"
+  short_description: "按Jack Ma的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $jack-ma to analyze this situation in Jack Ma式思路，并给出可执行建议。"

@@ -10,6 +10,19 @@
 
 `如果按这个人的做事方式处理现实问题，会怎么判断、怎么取舍、怎么行动？`
 
+## 目录
+
+- [为什么做这个仓库](#为什么做这个仓库)
+- [核心原则](#核心原则)
+- [参考示例 Skill](#参考示例-skill)
+- [人物 Skill 目录](#人物-skill-目录)
+- [人物 Backlog](#人物-backlog)
+- [快速开始](#快速开始)
+- [贡献方式](#贡献方式)
+- [仓库结构](#仓库结构)
+- [自动校验](#自动校验)
+- [License](#license)
+
 ## 为什么做这个仓库
 
 很多人物内容在互联网上会被压缩成：
@@ -36,7 +49,7 @@
 - `结构统一`
   让不同 skill 都能稳定被 AI 调用和复用。
 
-## 当前已收录
+## 参考示例 Skill
 
 | Skill | 人物 | 作用 |
 | --- | --- | --- |
@@ -50,11 +63,43 @@
 - 可选说明：[`zeng-guofan/references/overview.zh-CN.md`](./.agents/skills/zeng-guofan/references/overview.zh-CN.md)
 - 可选说明：[`zeng-guofan/references/overview.en.md`](./.agents/skills/zeng-guofan/references/overview.en.md)
 
+`zeng-guofan` 仍然是当前最完整、最成熟的示例 skill。
+人物 backlog 中列出的其他人物，现在也都已经在 [`.agents/skills`](./.agents/skills) 下生成了初版 skill。
+
+## 人物 Skill 目录
+
+当前仓库状态： [`.agents/skills`](./.agents/skills) 下已有 `33` 个 skill 目录。
+
+### 成熟示例
+
+`zeng-guofan`（曾国藩）
+
+### 初版 Skill：P0 打磨优先级
+
+`wang-yangming`（王阳明）、`su-shi`（苏轼）、`lei-jun`（雷军）、`duan-yongping`（段永平）、`ren-zhengfei`（任正非）、`cao-dewang`（曹德旺）、`kazuo-inamori`（稻盛和夫）、`warren-buffett`（巴菲特）、`charlie-munger`（查理·芒格）、`andy-grove`（安迪·格鲁夫）、`benjamin-franklin`（本杰明·富兰克林）、`richard-feynman`（理查德·费曼）
+
+### 初版 Skill：P1 打磨优先级
+
+`zhang-yiming`（张一鸣）、`jensen-huang`（黄仁勋）、`wang-xing`（王兴）、`luo-xiang`（罗翔）、`hayao-miyazaki`（宫崎骏）、`haruki-murakami`（村上春树）、`steve-jobs`（乔布斯）、`jeff-bezos`（贝索斯）、`konosuke-matsushita`（松下幸之助）、`peter-drucker`（彼得·德鲁克）、`rafael-nadal`（纳达尔）、`kobe-bryant`（科比）
+
+### 初版 Skill：P2 打磨优先级
+
+`elon-musk`（马斯克）、`jack-ma`（马云）、`cao-cao`（曹操）、`zhuge-liang`（诸葛亮）、`napoleon`（拿破仑）、`lee-kuan-yew`（李光耀）、`ray-dalio`（Ray Dalio）、`marcus-aurelius`（马可·奥勒留）
+
+## 人物 Backlog
+
+用于规划后续人物 skill 的仓库级文档：
+
+- 英文版：[`docs/person-backlog.md`](./docs/person-backlog.md)
+- 中文版：[`docs/person-backlog.zh-CN.md`](./docs/person-backlog.zh-CN.md)
+
+这些 backlog 文档里的 `P0 / P1 / P2` 现在表示“后续打磨优先级”，而不是是否已经存在 skill 目录。
+
 ## 快速开始
 
 ### 1. 浏览技能
 
-进入 [`.agents/skills`](./.agents/skills) 查看已收录人物。
+进入 [`.agents/skills`](./.agents/skills) 或先看上面的“人物 Skill 目录”查看已收录人物。
 
 ### 2. 调用技能
 
@@ -126,6 +171,8 @@ python3 scripts/validate_skills.py
       overview.en.md        # 可选
 
 docs/
+  person-backlog.md
+  person-backlog.zh-CN.md
   review-checklist.md
   review-checklist.zh-CN.md
 

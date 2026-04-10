@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kobe Bryant"
+  short_description: "按Kobe Bryant的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $kobe-bryant to analyze this situation in Kobe Bryant式思路，并给出可执行建议。"

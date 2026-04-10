@@ -10,6 +10,19 @@ The core question is:
 
 `If we handled a real problem in this person's style, how would we judge, decide, and act?`
 
+## Contents
+
+- [Why This Repository](#why-this-repository)
+- [Core Principles](#core-principles)
+- [Reference Skill](#reference-skill)
+- [Skill Index](#skill-index)
+- [Person Backlog](#person-backlog)
+- [Quick Start](#quick-start)
+- [Contributing](#contributing)
+- [Repository Structure](#repository-structure)
+- [Validation](#validation)
+- [License](#license)
+
 ## Why This Repository
 
 Online content about notable people is often compressed into:
@@ -36,7 +49,7 @@ Online content about notable people is often compressed into:
 - `Consistent structure`
   Keep skills structured so they can be invoked reliably by AI.
 
-## Current Skills
+## Reference Skill
 
 | Skill | Person | What it does |
 | --- | --- | --- |
@@ -50,11 +63,43 @@ Skill files:
 - Optional guide: [`zeng-guofan/references/overview.en.md`](./.agents/skills/zeng-guofan/references/overview.en.md)
 - Optional guide: [`zeng-guofan/references/overview.zh-CN.md`](./.agents/skills/zeng-guofan/references/overview.zh-CN.md)
 
+`zeng-guofan` remains the most fully-developed example skill.
+Initial draft skills now also exist for every person listed in the person backlog under [`.agents/skills`](./.agents/skills).
+
+## Skill Index
+
+Current repository status: `33` skill directories in [`.agents/skills`](./.agents/skills).
+
+### Mature Reference
+
+`zeng-guofan` (Zeng Guofan)
+
+### Draft Skills: P0 Refinement Priority
+
+`wang-yangming` (Wang Yangming), `su-shi` (Su Shi), `lei-jun` (Lei Jun), `duan-yongping` (Duan Yongping), `ren-zhengfei` (Ren Zhengfei), `cao-dewang` (Cao Dewang), `kazuo-inamori` (Kazuo Inamori), `warren-buffett` (Warren Buffett), `charlie-munger` (Charlie Munger), `andy-grove` (Andy Grove), `benjamin-franklin` (Benjamin Franklin), `richard-feynman` (Richard Feynman)
+
+### Draft Skills: P1 Refinement Priority
+
+`zhang-yiming` (Zhang Yiming), `jensen-huang` (Jensen Huang), `wang-xing` (Wang Xing), `luo-xiang` (Luo Xiang), `hayao-miyazaki` (Hayao Miyazaki), `haruki-murakami` (Haruki Murakami), `steve-jobs` (Steve Jobs), `jeff-bezos` (Jeff Bezos), `konosuke-matsushita` (Konosuke Matsushita), `peter-drucker` (Peter Drucker), `rafael-nadal` (Rafael Nadal), `kobe-bryant` (Kobe Bryant)
+
+### Draft Skills: P2 Refinement Priority
+
+`elon-musk` (Elon Musk), `jack-ma` (Jack Ma), `cao-cao` (Cao Cao), `zhuge-liang` (Zhuge Liang), `napoleon` (Napoleon), `lee-kuan-yew` (Lee Kuan Yew), `ray-dalio` (Ray Dalio), `marcus-aurelius` (Marcus Aurelius)
+
+## Person Backlog
+
+Repository planning documents for future person skills:
+
+- English: [`docs/person-backlog.md`](./docs/person-backlog.md)
+- Chinese: [`docs/person-backlog.zh-CN.md`](./docs/person-backlog.zh-CN.md)
+
+The tiers in these backlog files now indicate refinement priority, not whether a skill directory exists.
+
 ## Quick Start
 
 ### 1. Browse Skills
 
-Browse [`.agents/skills`](./.agents/skills) to see available person skills.
+Browse [`.agents/skills`](./.agents/skills) or start from the `Skill Index` above to see available person skills.
 
 ### 2. Use a Skill
 
@@ -126,6 +171,8 @@ Before contributing, read:
       overview.zh-CN.md     # optional
 
 docs/
+  person-backlog.md
+  person-backlog.zh-CN.md
   review-checklist.md
   review-checklist.zh-CN.md
 
