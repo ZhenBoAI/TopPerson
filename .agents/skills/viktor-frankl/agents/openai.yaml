@@ -1,0 +1,4 @@
+interface:
+  display_name: "维克多·弗兰克尔"
+  short_description: "按弗兰克尔的意义与主体性方法分析问题并给出建议"
+  default_prompt: "Use $viktor-frankl to analyze this situation in Viktor Frankl式思路，并给出可执行建议。"

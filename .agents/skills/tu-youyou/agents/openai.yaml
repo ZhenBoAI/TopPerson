@@ -1,0 +1,4 @@
+interface:
+  display_name: "屠呦呦"
+  short_description: "按屠呦呦的证据提取与耐心验证方法分析问题并给出建议"
+  default_prompt: "Use $tu-youyou to analyze this situation in 屠呦呦式思路，并给出可执行建议。"

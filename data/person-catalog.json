@@ -1,0 +1,2701 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-04-11",
+  "total_people": 110,
+  "reference_skill_count": 1,
+  "draft_skill_count": 44,
+  "candidate_count": 65,
+  "people": [
+    {
+      "slug": "zeng-guofan",
+      "name_zh": "曾国藩",
+      "name_en": "Zeng Guofan",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "self-discipline, leadership, crisis response",
+      "status": "reference_skill",
+      "distillation_priority": "reference",
+      "skill_path": ".agents/skills/zeng-guofan/SKILL.md",
+      "primary_use_case": "self-correction, using people, crisis handling, long-term execution",
+      "ordinary_people_value": "useful for personal correction, team cleanup, role clarity, and long-horizon execution",
+      "source_readiness": "strong",
+      "risk_note": "late-Qing context and disputed attributed works need filtering",
+      "recommended_skill_angle": "self-discipline, using people, leadership, crisis response",
+      "source_hints": [
+        "letters and diaries",
+        "memorials and collected writings",
+        "credible Zeng Guofan studies"
+      ]
+    },
+    {
+      "slug": "wang-yangming",
+      "name_zh": "王阳明",
+      "name_en": "Wang Yangming",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "action under uncertainty, self-discipline",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/wang-yangming/SKILL.md",
+      "primary_use_case": "decisive action, inner-friction reduction, self-correction",
+      "ordinary_people_value": "useful for procrastination, overthinking, and knowing but not acting",
+      "source_readiness": "strong",
+      "risk_note": "philosophical language can become slogans if not translated into concrete action",
+      "recommended_skill_angle": "unity of knowledge and action; action and inner-friction management",
+      "source_hints": [
+        "《传习录》",
+        "letters and collected writings",
+        "Yangming studies"
+      ]
+    },
+    {
+      "slug": "su-shi",
+      "name_zh": "苏轼",
+      "name_en": "Su Shi",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "resilience, emotional balance, life order",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/su-shi/SKILL.md",
+      "primary_use_case": "setbacks, emotional recovery, keeping perspective while working",
+      "ordinary_people_value": "useful for adversity, mood recovery, and rebuilding everyday order",
+      "source_readiness": "strong",
+      "risk_note": "literary image can overshadow his practical method",
+      "recommended_skill_angle": "adversity, resilience, emotion, and life order",
+      "source_hints": [
+        "poems and prose",
+        "letters and memorials",
+        "Su Shi biography studies"
+      ]
+    },
+    {
+      "slug": "lei-jun",
+      "name_zh": "雷军",
+      "name_en": "Lei Jun",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "product judgment, execution, communication",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/lei-jun/SKILL.md",
+      "primary_use_case": "product direction, execution rhythm, clear public expression",
+      "ordinary_people_value": "useful for product work, career growth, execution, and communication",
+      "source_readiness": "strong",
+      "risk_note": "company-specific context can be overfit if extracted too literally",
+      "recommended_skill_angle": "product judgment, efficiency, execution, sincere expression",
+      "source_hints": [
+        "speeches and interviews",
+        "Xiaomi public letters",
+        "founder materials"
+      ]
+    },
+    {
+      "slug": "duan-yongping",
+      "name_zh": "段永平",
+      "name_en": "Duan Yongping",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "long-termism, restraint, business judgment",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/duan-yongping/SKILL.md",
+      "primary_use_case": "saying no, choosing fewer things, patient decisions",
+      "ordinary_people_value": "useful for trade-offs, restraint, and long-term judgment",
+      "source_readiness": "medium",
+      "risk_note": "some advice is rooted in investing and business ownership context",
+      "recommended_skill_angle": "long-termism, trade-offs, and business judgment",
+      "source_hints": [
+        "public Q&A and interviews",
+        "business case materials",
+        "long-form discussions"
+      ]
+    },
+    {
+      "slug": "ren-zhengfei",
+      "name_zh": "任正非",
+      "name_en": "Ren Zhengfei",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "crisis, survival, organization",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/ren-zhengfei/SKILL.md",
+      "primary_use_case": "teams under pressure, scarce resources, long-term survival",
+      "ordinary_people_value": "useful for hard periods, organizational discipline, and crisis judgment",
+      "source_readiness": "strong",
+      "risk_note": "military and corporate language must be translated into humane modern use",
+      "recommended_skill_angle": "crisis, survival, organization, gray management",
+      "source_hints": [
+        "Huawei speeches",
+        "interviews and conversations",
+        "company management studies"
+      ]
+    },
+    {
+      "slug": "cao-dewang",
+      "name_zh": "曹德旺",
+      "name_en": "Cao Dewang",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "industrial operations, cost discipline",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/cao-dewang/SKILL.md",
+      "primary_use_case": "cost awareness, grounded management, practical execution",
+      "ordinary_people_value": "useful for operating discipline, cost sense, and pragmatic management",
+      "source_readiness": "medium",
+      "risk_note": "public bluntness can be mistaken for universally good leadership style",
+      "recommended_skill_angle": "industrial management, cost awareness, pragmatic execution",
+      "source_hints": [
+        "interviews and speeches",
+        "factory and business cases",
+        "credible business profiles"
+      ]
+    },
+    {
+      "slug": "kazuo-inamori",
+      "name_zh": "稻盛和夫",
+      "name_en": "Kazuo Inamori",
+      "region": "Japan",
+      "fit_buckets": [
+        "work",
+        "life",
+        "life-guidance"
+      ],
+      "domain": "management, self-discipline, altruism",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/kazuo-inamori/SKILL.md",
+      "primary_use_case": "small-team management, work ethic, principled leadership",
+      "ordinary_people_value": "useful for personal standards, management, and long-term organization building",
+      "source_readiness": "strong",
+      "risk_note": "can become moralistic if not converted into operational steps",
+      "recommended_skill_angle": "management, self-discipline, altruism, long-term organization building",
+      "source_hints": [
+        "《活法》",
+        "《干法》 and management writings",
+        "Kyocera philosophy materials"
+      ]
+    },
+    {
+      "slug": "warren-buffett",
+      "name_zh": "巴菲特",
+      "name_en": "Warren Buffett",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "circle of competence, patience, long-term decisions",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/warren-buffett/SKILL.md",
+      "primary_use_case": "boundary judgment, patience, long-term trade-offs",
+      "ordinary_people_value": "useful beyond investing for deciding where not to play and when not to move",
+      "source_readiness": "strong",
+      "risk_note": "users may reduce the skill to stock picking",
+      "recommended_skill_angle": "circle of competence, long-term decision-making, patience",
+      "source_hints": [
+        "Berkshire letters",
+        "annual meeting Q&A",
+        "credible Buffett biographies"
+      ]
+    },
+    {
+      "slug": "charlie-munger",
+      "name_zh": "查理·芒格",
+      "name_en": "Charlie Munger",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "mental models, bias reduction",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/charlie-munger/SKILL.md",
+      "primary_use_case": "better judgment, incentives, error avoidance",
+      "ordinary_people_value": "useful for ordinary decisions, incentives, and avoiding predictable mistakes",
+      "source_readiness": "strong",
+      "risk_note": "quote culture can oversimplify the method",
+      "recommended_skill_angle": "mental models and avoiding stupidity",
+      "source_hints": [
+        "Poor Charlie's Almanack",
+        "speeches and talks",
+        "decision-making studies"
+      ]
+    },
+    {
+      "slug": "andy-grove",
+      "name_zh": "安迪·格鲁夫",
+      "name_en": "Andy Grove",
+      "region": "Hungary / United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "management, execution systems, crisis awareness",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/andy-grove/SKILL.md",
+      "primary_use_case": "accountability, early warning, management under pressure",
+      "ordinary_people_value": "useful for managers, operators, and teams needing execution discipline",
+      "source_readiness": "strong",
+      "risk_note": "high-intensity style needs humane adaptation",
+      "recommended_skill_angle": "management, paranoia, crisis awareness, execution systems",
+      "source_hints": [
+        "High Output Management",
+        "Only the Paranoid Survive",
+        "Intel-era interviews"
+      ]
+    },
+    {
+      "slug": "benjamin-franklin",
+      "name_zh": "本杰明·富兰克林",
+      "name_en": "Benjamin Franklin",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "habits, self-improvement, writing",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/benjamin-franklin/SKILL.md",
+      "primary_use_case": "routines, self-audit, communication, practical life design",
+      "ordinary_people_value": "useful for personal habits, writing, and pragmatic self-improvement",
+      "source_readiness": "strong",
+      "risk_note": "scope can become too broad if the skill tries to cover every aspect of his life",
+      "recommended_skill_angle": "habits, self-improvement, writing, pragmatism",
+      "source_hints": [
+        "autobiography",
+        "letters and essays",
+        "Franklin studies"
+      ]
+    },
+    {
+      "slug": "richard-feynman",
+      "name_zh": "理查德·费曼",
+      "name_en": "Richard Feynman",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "learning, explanation, curiosity",
+      "status": "draft_skill",
+      "distillation_priority": "p0",
+      "skill_path": ".agents/skills/richard-feynman/SKILL.md",
+      "primary_use_case": "learning clearly, teaching, skill building, honest understanding",
+      "ordinary_people_value": "useful for study, explanation, and real comprehension",
+      "source_readiness": "strong",
+      "risk_note": "persona worship can obscure the disciplined study habits beneath the charm",
+      "recommended_skill_angle": "learning, understanding, explanation, curiosity",
+      "source_hints": [
+        "The Feynman Lectures on Physics",
+        "talks and interviews",
+        "science education studies"
+      ]
+    },
+    {
+      "slug": "zhang-yiming",
+      "name_zh": "张一鸣",
+      "name_en": "Zhang Yiming",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "rational decision-making, information systems",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/zhang-yiming/SKILL.md",
+      "primary_use_case": "clearer decisions, mechanism design, information processing",
+      "ordinary_people_value": "useful for knowledge work, decision memos, and system thinking",
+      "source_readiness": "medium",
+      "risk_note": "public source base is thinner than founder mythology around him",
+      "recommended_skill_angle": "rational decision-making and information systems",
+      "source_hints": [
+        "long interviews",
+        "company letters",
+        "credible business profiles"
+      ]
+    },
+    {
+      "slug": "jensen-huang",
+      "name_zh": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "region": "Taiwan / United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "technical strategy, long-term R&D",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/jensen-huang/SKILL.md",
+      "primary_use_case": "staying committed through uncertainty, keeping technical standards high",
+      "ordinary_people_value": "useful for long-horizon building, technical leadership, and endurance",
+      "source_readiness": "strong",
+      "risk_note": "frontier-tech scale can be harder to map directly to ordinary work",
+      "recommended_skill_angle": "long-term R&D and technical leadership",
+      "source_hints": [
+        "keynotes and interviews",
+        "NVIDIA founder materials",
+        "semiconductor profiles"
+      ]
+    },
+    {
+      "slug": "wang-xing",
+      "name_zh": "王兴",
+      "name_en": "Wang Xing",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "competitive judgment, strategic focus",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/wang-xing/SKILL.md",
+      "primary_use_case": "choosing battles, reading markets, focusing scarce attention",
+      "ordinary_people_value": "useful for strategic choice and resource focus",
+      "source_readiness": "medium",
+      "risk_note": "platform-competition context may narrow transferability",
+      "recommended_skill_angle": "competitive judgment and strategic clarity",
+      "source_hints": [
+        "interviews and talks",
+        "Meituan history materials",
+        "business analyses"
+      ]
+    },
+    {
+      "slug": "luo-xiang",
+      "name_zh": "罗翔",
+      "name_en": "Luo Xiang",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "life-guidance",
+        "work"
+      ],
+      "domain": "principle reasoning, boundary awareness",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/luo-xiang/SKILL.md",
+      "primary_use_case": "ethical judgment, explaining difficult ideas clearly, staying inside legitimate boundaries",
+      "ordinary_people_value": "useful for principle-based thinking and clear explanation",
+      "source_readiness": "strong",
+      "risk_note": "more about legal and ethical reasoning than general management",
+      "recommended_skill_angle": "principle reasoning and boundary awareness",
+      "source_hints": [
+        "public lectures",
+        "books and essays",
+        "interviews"
+      ]
+    },
+    {
+      "slug": "hayao-miyazaki",
+      "name_zh": "宫崎骏",
+      "name_en": "Hayao Miyazaki",
+      "region": "Japan",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "craft standards, creative discipline",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/hayao-miyazaki/SKILL.md",
+      "primary_use_case": "taste formation, standards, long-form creative work",
+      "ordinary_people_value": "useful for creators and anyone protecting quality over long projects",
+      "source_readiness": "strong",
+      "risk_note": "artistic aura can romanticize pain instead of disciplined craft",
+      "recommended_skill_angle": "craft standards and creative discipline",
+      "source_hints": [
+        "documentaries and interviews",
+        "essays and talks",
+        "Ghibli studies"
+      ]
+    },
+    {
+      "slug": "haruki-murakami",
+      "name_zh": "村上春树",
+      "name_en": "Haruki Murakami",
+      "region": "Japan",
+      "fit_buckets": [
+        "life",
+        "study",
+        "work"
+      ],
+      "domain": "routine, endurance, solitary long-term work",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/haruki-murakami/SKILL.md",
+      "primary_use_case": "building routine, sustaining long projects quietly",
+      "ordinary_people_value": "useful for personal rhythm, focus, and long creative effort",
+      "source_readiness": "strong",
+      "risk_note": "more creator-focused than team-focused",
+      "recommended_skill_angle": "routine, endurance, long-term creative work",
+      "source_hints": [
+        "memoirs and essays",
+        "interviews",
+        "writing process materials"
+      ]
+    },
+    {
+      "slug": "steve-jobs",
+      "name_zh": "乔布斯",
+      "name_en": "Steve Jobs",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "product taste, focus, standards",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/steve-jobs/SKILL.md",
+      "primary_use_case": "prioritization, product clarity, standard-setting",
+      "ordinary_people_value": "useful for product focus and refusing mediocrity",
+      "source_readiness": "strong",
+      "risk_note": "myth and harsh behavior need explicit filtering",
+      "recommended_skill_angle": "product taste, focus, high standards",
+      "source_hints": [
+        "keynotes and interviews",
+        "Walter Isaacson biography",
+        "Apple history materials"
+      ]
+    },
+    {
+      "slug": "jeff-bezos",
+      "name_zh": "贝索斯",
+      "name_en": "Jeff Bezos",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "customer obsession, flywheel thinking",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/jeff-bezos/SKILL.md",
+      "primary_use_case": "customer-centered work, compounding, system building",
+      "ordinary_people_value": "useful for customer focus and long-term system design",
+      "source_readiness": "strong",
+      "risk_note": "scale effects and aggressive culture need adaptation",
+      "recommended_skill_angle": "customer obsession and flywheel thinking",
+      "source_hints": [
+        "shareholder letters",
+        "interviews and talks",
+        "Amazon studies"
+      ]
+    },
+    {
+      "slug": "konosuke-matsushita",
+      "name_zh": "松下幸之助",
+      "name_en": "Konosuke Matsushita",
+      "region": "Japan",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "management philosophy, people development",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/konosuke-matsushita/SKILL.md",
+      "primary_use_case": "leadership, responsibility, organizational steadiness",
+      "ordinary_people_value": "useful for people development and long-term management habits",
+      "source_readiness": "strong",
+      "risk_note": "aphoristic management writing can blur source confidence",
+      "recommended_skill_angle": "management philosophy and people development",
+      "source_hints": [
+        "management writings",
+        "company philosophy materials",
+        "biographies"
+      ]
+    },
+    {
+      "slug": "peter-drucker",
+      "name_zh": "彼得·德鲁克",
+      "name_en": "Peter Drucker",
+      "region": "Austria / United States",
+      "fit_buckets": [
+        "work",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "management, objectives, knowledge work",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/peter-drucker/SKILL.md",
+      "primary_use_case": "clarity on outcomes, responsibility, knowledge work",
+      "ordinary_people_value": "useful for managers and individual contributors alike",
+      "source_readiness": "strong",
+      "risk_note": "can feel abstract without implementation rules",
+      "recommended_skill_angle": "management, objectives, knowledge work",
+      "source_hints": [
+        "management books",
+        "interviews and essays",
+        "Drucker institute materials"
+      ]
+    },
+    {
+      "slug": "rafael-nadal",
+      "name_zh": "纳达尔",
+      "name_en": "Rafael Nadal",
+      "region": "Spain",
+      "fit_buckets": [
+        "life",
+        "study",
+        "work"
+      ],
+      "domain": "consistency, resilience, low-error performance",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/rafael-nadal/SKILL.md",
+      "primary_use_case": "persistence, composure, low-error execution",
+      "ordinary_people_value": "useful for discipline, resilience, and steady performance",
+      "source_readiness": "strong",
+      "risk_note": "elite sports context requires translation away from physical extremes",
+      "recommended_skill_angle": "consistency, resilience, low-error execution",
+      "source_hints": [
+        "autobiographical materials",
+        "interviews",
+        "match analyses"
+      ]
+    },
+    {
+      "slug": "kobe-bryant",
+      "name_zh": "科比",
+      "name_en": "Kobe Bryant",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "study",
+        "work"
+      ],
+      "domain": "deliberate practice, competitive standards",
+      "status": "draft_skill",
+      "distillation_priority": "p1",
+      "skill_path": ".agents/skills/kobe-bryant/SKILL.md",
+      "primary_use_case": "effort standards, repetition, personal commitment",
+      "ordinary_people_value": "useful for training discipline and repetition",
+      "source_readiness": "strong",
+      "risk_note": "heroization and intensity can become unhealthy if unfiltered",
+      "recommended_skill_angle": "discipline, deliberate practice, competitive standards",
+      "source_hints": [
+        "interviews and talks",
+        "Mamba Mentality materials",
+        "sports documentaries"
+      ]
+    },
+    {
+      "slug": "elon-musk",
+      "name_zh": "马斯克",
+      "name_en": "Elon Musk",
+      "region": "South Africa / United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "first-principles thinking, ambition",
+      "status": "draft_skill",
+      "distillation_priority": "p2",
+      "skill_path": ".agents/skills/elon-musk/SKILL.md",
+      "primary_use_case": "attacking assumptions and thinking from fundamentals",
+      "ordinary_people_value": "useful for questioning defaults and reframing constraints",
+      "source_readiness": "strong",
+      "risk_note": "extreme context, high controversy, and imitation risk are all high",
+      "recommended_skill_angle": "first-principles thinking with strong guardrails",
+      "source_hints": [
+        "interviews and talks",
+        "company materials",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "jack-ma",
+      "name_zh": "马云",
+      "name_en": "Jack Ma",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "communication, market education, rallying people",
+      "status": "draft_skill",
+      "distillation_priority": "p2",
+      "skill_path": ".agents/skills/jack-ma/SKILL.md",
+      "primary_use_case": "storytelling, market education, energizing teams",
+      "ordinary_people_value": "useful for communication and mobilizing direction",
+      "source_readiness": "strong",
+      "risk_note": "era-specific platform context and controversy raise the filtering burden",
+      "recommended_skill_angle": "communication and market education",
+      "source_hints": [
+        "speeches and interviews",
+        "letters and public talks",
+        "business profiles"
+      ]
+    },
+    {
+      "slug": "cao-cao",
+      "name_zh": "曹操",
+      "name_en": "Cao Cao",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "strategy, talent use, decisiveness",
+      "status": "draft_skill",
+      "distillation_priority": "p2",
+      "skill_path": ".agents/skills/cao-cao/SKILL.md",
+      "primary_use_case": "reading incentives and acting decisively when conditions change",
+      "ordinary_people_value": "useful for strategic timing and talent judgment",
+      "source_readiness": "medium",
+      "risk_note": "power-politics content and novel contamination risk are high",
+      "recommended_skill_angle": "strategy and talent use",
+      "source_hints": [
+        "Three Kingdoms historical records",
+        "poems and memorials",
+        "credible Three Kingdoms studies"
+      ]
+    },
+    {
+      "slug": "zhuge-liang",
+      "name_zh": "诸葛亮",
+      "name_en": "Zhuge Liang",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "planning, diligence, conscientious execution",
+      "status": "draft_skill",
+      "distillation_priority": "p2",
+      "skill_path": ".agents/skills/zhuge-liang/SKILL.md",
+      "primary_use_case": "planning discipline and duty-bound execution",
+      "ordinary_people_value": "useful as a diligence and planning archetype",
+      "source_readiness": "medium",
+      "risk_note": "popular understanding is heavily shaped by Romance of the Three Kingdoms",
+      "recommended_skill_angle": "planning discipline and conscientious execution",
+      "source_hints": [
+        "Three Kingdoms historical records",
+        "memorials and writings",
+        "credible historical studies"
+      ]
+    },
+    {
+      "slug": "napoleon",
+      "name_zh": "拿破仑",
+      "name_en": "Napoleon",
+      "region": "France",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "strategy, timing, concentration of force",
+      "status": "draft_skill",
+      "distillation_priority": "p2",
+      "skill_path": ".agents/skills/napoleon/SKILL.md",
+      "primary_use_case": "thinking about timing, speed, and concentrated effort",
+      "ordinary_people_value": "useful for resource focus and timing judgment",
+      "source_readiness": "strong",
+      "risk_note": "war-centered material makes ordinary-life translation harder and riskier",
+      "recommended_skill_angle": "strategy, timing, concentration",
+      "source_hints": [
+        "letters and memoirs",
+        "campaign studies",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "lee-kuan-yew",
+      "name_zh": "李光耀",
+      "name_en": "Lee Kuan Yew",
+      "region": "Singapore",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "long-term planning, institutional design",
+      "status": "draft_skill",
+      "distillation_priority": "p2",
+      "skill_path": ".agents/skills/lee-kuan-yew/SKILL.md",
+      "primary_use_case": "long-horizon planning and institutional thinking",
+      "ordinary_people_value": "useful for thinking in systems and long cycles",
+      "source_readiness": "strong",
+      "risk_note": "political context is heavy and hard to translate cleanly into ordinary life",
+      "recommended_skill_angle": "long-term planning and institutional design",
+      "source_hints": [
+        "memoirs",
+        "interviews and speeches",
+        "governance studies"
+      ]
+    },
+    {
+      "slug": "ray-dalio",
+      "name_zh": "Ray Dalio",
+      "name_en": "Ray Dalio",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance",
+        "study"
+      ],
+      "domain": "principles, systematized decision-making",
+      "status": "draft_skill",
+      "distillation_priority": "p2",
+      "skill_path": ".agents/skills/ray-dalio/SKILL.md",
+      "primary_use_case": "making decision rules explicit and learning from error patterns",
+      "ordinary_people_value": "useful for writing down principles and building feedback loops",
+      "source_readiness": "strong",
+      "risk_note": "can become rigid, over-systematized, or finance-overfit",
+      "recommended_skill_angle": "principles and systematized decisions",
+      "source_hints": [
+        "Principles",
+        "interviews and talks",
+        "Bridgewater profiles"
+      ]
+    },
+    {
+      "slug": "marcus-aurelius",
+      "name_zh": "马可·奥勒留",
+      "name_en": "Marcus Aurelius",
+      "region": "Rome",
+      "fit_buckets": [
+        "life",
+        "life-guidance"
+      ],
+      "domain": "self-command, emotion regulation, duty",
+      "status": "draft_skill",
+      "distillation_priority": "p2",
+      "skill_path": ".agents/skills/marcus-aurelius/SKILL.md",
+      "primary_use_case": "emotional steadiness and principled conduct",
+      "ordinary_people_value": "useful for self-management and emotional balance",
+      "source_readiness": "strong",
+      "risk_note": "stoicism can be misread as passivity or emotional suppression",
+      "recommended_skill_angle": "self-command and emotion regulation",
+      "source_hints": [
+        "Meditations",
+        "Roman historical context",
+        "credible Stoicism studies"
+      ]
+    },
+    {
+      "slug": "confucius",
+      "name_zh": "孔子",
+      "name_en": "Confucius",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "conduct, learning, role ethics",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/confucius/SKILL.md",
+      "primary_use_case": "self-cultivation, learning discipline, role responsibility",
+      "ordinary_people_value": "useful for conduct, family roles, learning, and everyday decency",
+      "source_readiness": "strong",
+      "risk_note": "later tradition and sloganization need careful filtering",
+      "recommended_skill_angle": "conduct, learning, role responsibility",
+      "source_hints": [
+        "《论语》",
+        "early Confucian texts",
+        "reliable Confucian studies"
+      ]
+    },
+    {
+      "slug": "zhu-xi",
+      "name_zh": "朱熹",
+      "name_en": "Zhu Xi",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "life",
+        "life-guidance"
+      ],
+      "domain": "study order, disciplined inquiry",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "building a study method, daily order, careful reading",
+      "ordinary_people_value": "useful for learners who need structure and steady study habits",
+      "source_readiness": "strong",
+      "risk_note": "Neo-Confucian metaphysics can become too abstract if not grounded",
+      "recommended_skill_angle": "study order, disciplined reading, daily cultivation",
+      "source_hints": [
+        "朱子文集",
+        "四书章句集注",
+        "Song-Ming thought studies"
+      ]
+    },
+    {
+      "slug": "gu-yanwu",
+      "name_zh": "顾炎武",
+      "name_en": "Gu Yanwu",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "life-guidance"
+      ],
+      "domain": "evidence, responsibility, grounded scholarship",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "serious reading, factual inquiry, linking learning with responsibility",
+      "ordinary_people_value": "useful for people who want study to become grounded and responsible",
+      "source_readiness": "medium",
+      "risk_note": "late-imperial scholarship context needs modern translation",
+      "recommended_skill_angle": "evidence-first study and responsibility",
+      "source_hints": [
+        "scholarly writings",
+        "letters and notes",
+        "Qing scholarship studies"
+      ]
+    },
+    {
+      "slug": "wang-anshi",
+      "name_zh": "王安石",
+      "name_en": "Wang Anshi",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "reform design, implementation",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "changing systems, pushing reforms, handling resistance",
+      "ordinary_people_value": "useful for institutional change and execution under disagreement",
+      "source_readiness": "strong",
+      "risk_note": "statecraft context is heavy and reform judgments remain contested",
+      "recommended_skill_angle": "reform judgment, implementation, resistance management",
+      "source_hints": [
+        "memorials and essays",
+        "Song history materials",
+        "reform studies"
+      ]
+    },
+    {
+      "slug": "zuo-zongtang",
+      "name_zh": "左宗棠",
+      "name_en": "Zuo Zongtang",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "logistics, recovery, hard execution",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "recovering difficult situations and pushing through hard constraints",
+      "ordinary_people_value": "useful for difficult projects needing grit and logistical clarity",
+      "source_readiness": "medium",
+      "risk_note": "military and late-Qing state context needs strong filtering",
+      "recommended_skill_angle": "hard-project recovery and logistical execution",
+      "source_hints": [
+        "letters and memorials",
+        "biographies",
+        "late-Qing studies"
+      ]
+    },
+    {
+      "slug": "cai-yuanpei",
+      "name_zh": "蔡元培",
+      "name_en": "Cai Yuanpei",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "education, tolerance, institutional culture",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "building culture, protecting pluralism, educational leadership",
+      "ordinary_people_value": "useful for school, team, and culture-building contexts",
+      "source_readiness": "strong",
+      "risk_note": "institutional and intellectual history context can become abstract",
+      "recommended_skill_angle": "institution building, tolerance, educational leadership",
+      "source_hints": [
+        "speeches and essays",
+        "letters",
+        "education history studies"
+      ]
+    },
+    {
+      "slug": "hu-shi",
+      "name_zh": "胡适",
+      "name_en": "Hu Shi",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "skepticism, evidence, plain expression",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/hu-shi/SKILL.md",
+      "primary_use_case": "clear thinking, evidence-minded judgment, plain writing",
+      "ordinary_people_value": "useful for study, writing, and resisting empty grandstanding",
+      "source_readiness": "strong",
+      "risk_note": "intellectual history debates can distract from the practical method",
+      "recommended_skill_angle": "skepticism, evidence, plain speaking",
+      "source_hints": [
+        "essays and talks",
+        "letters and diaries",
+        "Hu Shi studies"
+      ]
+    },
+    {
+      "slug": "lu-xun",
+      "name_zh": "鲁迅",
+      "name_en": "Lu Xun",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "life-guidance"
+      ],
+      "domain": "clarity, critique, anti-self-deception",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "seeing through empty talk, writing clearly, moral self-honesty",
+      "ordinary_people_value": "useful for writing, judgment, and resisting self-deception",
+      "source_readiness": "strong",
+      "risk_note": "critical style can be over-copied into cynicism",
+      "recommended_skill_angle": "clear-eyed critique and anti-self-deception",
+      "source_hints": [
+        "essays and letters",
+        "talks and notes",
+        "Lu Xun studies"
+      ]
+    },
+    {
+      "slug": "liang-qichao",
+      "name_zh": "梁启超",
+      "name_en": "Liang Qichao",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "life-guidance",
+        "work"
+      ],
+      "domain": "self-renewal, learning, civic energy",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "broad reading, self-renewal, public-minded learning",
+      "ordinary_people_value": "useful for people rebuilding themselves through study and action",
+      "source_readiness": "strong",
+      "risk_note": "historical reform context can overshadow the personal method",
+      "recommended_skill_angle": "self-renewal through reading and action",
+      "source_hints": [
+        "essays and letters",
+        "biographical materials",
+        "late-Qing reform studies"
+      ]
+    },
+    {
+      "slug": "tao-xingzhi",
+      "name_zh": "陶行知",
+      "name_en": "Tao Xingzhi",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "learning by doing, grassroots education",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/tao-xingzhi/SKILL.md",
+      "primary_use_case": "teaching, training, and turning knowledge into practice",
+      "ordinary_people_value": "useful for teachers, parents, learners, and builders",
+      "source_readiness": "strong",
+      "risk_note": "education-specific language needs broader translation",
+      "recommended_skill_angle": "learning by doing and practical education",
+      "source_hints": [
+        "education writings",
+        "letters and speeches",
+        "Tao Xingzhi studies"
+      ]
+    },
+    {
+      "slug": "qian-xuesen",
+      "name_zh": "钱学森",
+      "name_en": "Qian Xuesen",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work"
+      ],
+      "domain": "systems engineering, interdisciplinary thinking",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/qian-xuesen/SKILL.md",
+      "primary_use_case": "solving complex problems through system design and synthesis",
+      "ordinary_people_value": "useful for engineers, product builders, and complex project managers",
+      "source_readiness": "strong",
+      "risk_note": "high-end scientific context needs translation into ordinary project work",
+      "recommended_skill_angle": "systems thinking and interdisciplinary engineering",
+      "source_hints": [
+        "technical writings",
+        "talks and articles",
+        "Qian Xuesen studies"
+      ]
+    },
+    {
+      "slug": "yuan-longping",
+      "name_zh": "袁隆平",
+      "name_en": "Yuan Longping",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "practical science, fieldwork, persistence",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/yuan-longping/SKILL.md",
+      "primary_use_case": "patient experimentation, field validation, mission-focused work",
+      "ordinary_people_value": "useful for patient builders who need grounded, real-world iteration",
+      "source_readiness": "strong",
+      "risk_note": "public image can flatten the method into generic inspiration",
+      "recommended_skill_angle": "field-tested persistence and practical science",
+      "source_hints": [
+        "interviews and talks",
+        "research-related materials",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "tu-youyou",
+      "name_zh": "屠呦呦",
+      "name_en": "Tu Youyou",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work"
+      ],
+      "domain": "scientific rigor, evidence extraction",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/tu-youyou/SKILL.md",
+      "primary_use_case": "finding signal in old material, validating with evidence, quiet rigor",
+      "ordinary_people_value": "useful for research, experimentation, and evidence-driven iteration",
+      "source_readiness": "strong",
+      "risk_note": "scientific achievement can be reduced to a single breakthrough story",
+      "recommended_skill_angle": "evidence rigor and patient discovery",
+      "source_hints": [
+        "interviews and speeches",
+        "research histories",
+        "Nobel-related materials"
+      ]
+    },
+    {
+      "slug": "nan-rendong",
+      "name_zh": "南仁东",
+      "name_en": "Nan Rendong",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "long-term mission building, infrastructure perseverance",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "building long-horizon projects with sparse feedback",
+      "ordinary_people_value": "useful for mission-driven work requiring patience and commitment",
+      "source_readiness": "medium",
+      "risk_note": "materials are thinner than the public reputation around him",
+      "recommended_skill_angle": "mission persistence and long-horizon project building",
+      "source_hints": [
+        "interviews and reports",
+        "FAST project materials",
+        "credible profiles"
+      ]
+    },
+    {
+      "slug": "fei-xiaotong",
+      "name_zh": "费孝通",
+      "name_en": "Fei Xiaotong",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "social observation, grounded understanding",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "understanding local realities before making judgments or plans",
+      "ordinary_people_value": "useful for researchers, operators, and community-minded builders",
+      "source_readiness": "strong",
+      "risk_note": "academic framing can feel distant if not translated into field practice",
+      "recommended_skill_angle": "observe reality first, then decide",
+      "source_hints": [
+        "《乡土中国》",
+        "fieldwork-related writings",
+        "sociology studies"
+      ]
+    },
+    {
+      "slug": "ji-xianlin",
+      "name_zh": "季羡林",
+      "name_en": "Ji Xianlin",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "life"
+      ],
+      "domain": "reading, scholarship, long-horizon learning",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "serious reading, scholarship habits, long-term self-cultivation",
+      "ordinary_people_value": "useful for learners who want durable reading and study habits",
+      "source_readiness": "strong",
+      "risk_note": "scholar image can drift into general admiration without method extraction",
+      "recommended_skill_angle": "reading discipline and lifelong scholarship",
+      "source_hints": [
+        "essays and memoirs",
+        "interviews",
+        "scholarship profiles"
+      ]
+    },
+    {
+      "slug": "ma-huateng",
+      "name_zh": "马化腾",
+      "name_en": "Pony Ma",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "product restraint, platform judgment",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/ma-huateng/SKILL.md",
+      "primary_use_case": "reading user behavior, moving steadily, choosing platform timing",
+      "ordinary_people_value": "useful for product managers and long-cycle builders",
+      "source_readiness": "medium",
+      "risk_note": "public materials are thinner and large-platform context can overfit",
+      "recommended_skill_angle": "product restraint, pacing, and platform judgment",
+      "source_hints": [
+        "interviews and talks",
+        "Tencent materials",
+        "credible business profiles"
+      ]
+    },
+    {
+      "slug": "zhang-ruimin",
+      "name_zh": "张瑞敏",
+      "name_en": "Zhang Ruimin",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "management, self-disruption, accountability",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/zhang-ruimin/SKILL.md",
+      "primary_use_case": "organizational accountability, adaptation, user-facing management",
+      "ordinary_people_value": "useful for teams facing complacency and change",
+      "source_readiness": "strong",
+      "risk_note": "management concepts can become slogans if detached from execution",
+      "recommended_skill_angle": "self-disruption and accountability",
+      "source_hints": [
+        "management talks",
+        "Haier materials",
+        "case studies"
+      ]
+    },
+    {
+      "slug": "zong-qinghou",
+      "name_zh": "宗庆后",
+      "name_en": "Zong Qinghou",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "frugality, channel execution, grounded management",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "running practical businesses with cost control and grounded habits",
+      "ordinary_people_value": "useful for small-business and operator mindsets",
+      "source_readiness": "medium",
+      "risk_note": "public stories can flatten method into thrift clichés",
+      "recommended_skill_angle": "frugality, channels, grounded execution",
+      "source_hints": [
+        "interviews",
+        "business profiles",
+        "company histories"
+      ]
+    },
+    {
+      "slug": "liu-yonghao",
+      "name_zh": "刘永好",
+      "name_en": "Liu Yonghao",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "prudence, cycles, long-term entrepreneurship",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "building through cycles and maintaining prudence in expansion",
+      "ordinary_people_value": "useful for founders and operators navigating long cycles",
+      "source_readiness": "medium",
+      "risk_note": "industry-specific context limits direct transfer in places",
+      "recommended_skill_angle": "prudence through business cycles",
+      "source_hints": [
+        "interviews and talks",
+        "company profiles",
+        "business case materials"
+      ]
+    },
+    {
+      "slug": "yu-minhong",
+      "name_zh": "俞敏洪",
+      "name_en": "Yu Minhong",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "resilience, communication, rebuilding",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "recovering from setbacks, public communication, rebuilding direction",
+      "ordinary_people_value": "useful for people navigating failure and reinvention",
+      "source_readiness": "strong",
+      "risk_note": "public-speaking persona can overshadow the harder rebuilding lessons",
+      "recommended_skill_angle": "resilience, communication, rebuilding",
+      "source_hints": [
+        "speeches and essays",
+        "interviews",
+        "founder memoir materials"
+      ]
+    },
+    {
+      "slug": "seneca",
+      "name_zh": "塞涅卡",
+      "name_en": "Seneca",
+      "region": "Rome",
+      "fit_buckets": [
+        "life",
+        "life-guidance"
+      ],
+      "domain": "self-command, time, emotional steadiness",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "handling anger, setbacks, time, and inner steadiness",
+      "ordinary_people_value": "useful for emotional discipline and perspective",
+      "source_readiness": "strong",
+      "risk_note": "Stoicism is often flattened into emotional suppression",
+      "recommended_skill_angle": "emotion, time, self-command",
+      "source_hints": [
+        "Letters from a Stoic",
+        "On Anger and essays",
+        "Stoicism studies"
+      ]
+    },
+    {
+      "slug": "epictetus",
+      "name_zh": "爱比克泰德",
+      "name_en": "Epictetus",
+      "region": "Greece / Rome",
+      "fit_buckets": [
+        "life",
+        "life-guidance"
+      ],
+      "domain": "control, inner freedom, response discipline",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "distinguishing what is controllable and responding well",
+      "ordinary_people_value": "useful for anxiety, frustration, and role discipline",
+      "source_readiness": "strong",
+      "risk_note": "can be misread as passive acceptance",
+      "recommended_skill_angle": "control what is yours, respond well",
+      "source_hints": [
+        "Enchiridion",
+        "Discourses",
+        "Stoicism studies"
+      ]
+    },
+    {
+      "slug": "viktor-frankl",
+      "name_zh": "维克多·弗兰克尔",
+      "name_en": "Viktor Frankl",
+      "region": "Austria",
+      "fit_buckets": [
+        "life",
+        "life-guidance",
+        "study"
+      ],
+      "domain": "meaning, resilience, response under suffering",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/viktor-frankl/SKILL.md",
+      "primary_use_case": "finding meaning, choosing response, surviving hard times",
+      "ordinary_people_value": "useful for setbacks, grief, and restoring agency",
+      "source_readiness": "strong",
+      "risk_note": "suffering can be romanticized or moralized if handled carelessly",
+      "recommended_skill_angle": "meaning, agency, response under pressure",
+      "source_hints": [
+        "Man's Search for Meaning",
+        "lectures and interviews",
+        "logotherapy materials"
+      ]
+    },
+    {
+      "slug": "abraham-lincoln",
+      "name_zh": "林肯",
+      "name_en": "Abraham Lincoln",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "humility, conflict handling, leadership under crisis",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "leading during division, writing clearly, staying steady under criticism",
+      "ordinary_people_value": "useful for leaders facing conflict and hard trade-offs",
+      "source_readiness": "strong",
+      "risk_note": "civil-war political context needs careful translation",
+      "recommended_skill_angle": "humility, firmness, conflict leadership",
+      "source_hints": [
+        "speeches and letters",
+        "biographies",
+        "presidential studies"
+      ]
+    },
+    {
+      "slug": "theodore-roosevelt",
+      "name_zh": "西奥多·罗斯福",
+      "name_en": "Theodore Roosevelt",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "energy, courage, strenuous discipline",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "overcoming weakness, cultivating vigor, acting with courage",
+      "ordinary_people_value": "useful for energy, self-renewal, and public-minded action",
+      "source_readiness": "strong",
+      "risk_note": "intensity can be romanticized and political context is strong",
+      "recommended_skill_angle": "energy, courage, disciplined action",
+      "source_hints": [
+        "autobiography and letters",
+        "speeches",
+        "biographies"
+      ]
+    },
+    {
+      "slug": "nelson-mandela",
+      "name_zh": "纳尔逊·曼德拉",
+      "name_en": "Nelson Mandela",
+      "region": "South Africa",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "forbearance, reconciliation, moral leadership",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "holding principle without losing strategic patience",
+      "ordinary_people_value": "useful for conflict, long-horizon dignity, and reconciliation",
+      "source_readiness": "strong",
+      "risk_note": "political struggle context can overshadow the interpersonal method",
+      "recommended_skill_angle": "forbearance, principle, reconciliation",
+      "source_hints": [
+        "Long Walk to Freedom",
+        "speeches and interviews",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "marie-curie",
+      "name_zh": "居里夫人",
+      "name_en": "Marie Curie",
+      "region": "Poland / France",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "scientific rigor, devotion to work",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "serious research, focus, and persistence without theatrics",
+      "ordinary_people_value": "useful for disciplined study and long research work",
+      "source_readiness": "strong",
+      "risk_note": "sacrifice narrative can be romanticized without enough boundary awareness",
+      "recommended_skill_angle": "scientific rigor and quiet persistence",
+      "source_hints": [
+        "biographical writings",
+        "letters",
+        "science history studies"
+      ]
+    },
+    {
+      "slug": "charles-darwin",
+      "name_zh": "达尔文",
+      "name_en": "Charles Darwin",
+      "region": "United Kingdom",
+      "fit_buckets": [
+        "study",
+        "work"
+      ],
+      "domain": "observation, patience, evidence accumulation",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "slow observation, note-taking, and evidence-based revision",
+      "ordinary_people_value": "useful for anyone doing careful learning or research",
+      "source_readiness": "strong",
+      "risk_note": "scientific ideas can be misused outside their domain",
+      "recommended_skill_angle": "observation, note-taking, evidence patience",
+      "source_hints": [
+        "autobiography and notebooks",
+        "Origin-related materials",
+        "Darwin studies"
+      ]
+    },
+    {
+      "slug": "taiichi-ohno",
+      "name_zh": "大野耐一",
+      "name_en": "Taiichi Ohno",
+      "region": "Japan",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "lean thinking, waste reduction, process discipline",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/taiichi-ohno/SKILL.md",
+      "primary_use_case": "finding waste, improving process, fixing flow problems",
+      "ordinary_people_value": "useful for teams who want to improve operations and reduce friction",
+      "source_readiness": "strong",
+      "risk_note": "lean can become dogma or mere cost-cutting if used badly",
+      "recommended_skill_angle": "see waste, improve flow, fix process",
+      "source_hints": [
+        "Toyota Production System",
+        "workplace talks",
+        "lean studies"
+      ]
+    },
+    {
+      "slug": "soichiro-honda",
+      "name_zh": "本田宗一郎",
+      "name_en": "Soichiro Honda",
+      "region": "Japan",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "engineering spirit, experimentation, resilience",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "building through failure, keeping engineering curiosity alive",
+      "ordinary_people_value": "useful for builders and founders who need experimentation and stamina",
+      "source_readiness": "strong",
+      "risk_note": "founder legend can hide the operational discipline underneath",
+      "recommended_skill_angle": "engineering curiosity and resilient making",
+      "source_hints": [
+        "speeches and interviews",
+        "company history materials",
+        "biographies"
+      ]
+    },
+    {
+      "slug": "akio-morita",
+      "name_zh": "盛田昭夫",
+      "name_en": "Akio Morita",
+      "region": "Japan",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "global product vision, founder communication",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "product vision, international positioning, founder judgment",
+      "ordinary_people_value": "useful for product builders and market-facing founders",
+      "source_readiness": "strong",
+      "risk_note": "large-company context may overfit certain lessons",
+      "recommended_skill_angle": "product vision and founder communication",
+      "source_hints": [
+        "Made in Japan",
+        "interviews and talks",
+        "Sony history materials"
+      ]
+    },
+    {
+      "slug": "sam-walton",
+      "name_zh": "山姆·沃尔顿",
+      "name_en": "Sam Walton",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "retail execution, frugality, frontline learning",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "low-cost execution, frontline learning, operational discipline",
+      "ordinary_people_value": "useful for operators who need to stay close to customers and numbers",
+      "source_readiness": "strong",
+      "risk_note": "scale and labor debates require context and filtering",
+      "recommended_skill_angle": "frugality, frontline observation, operational rigor",
+      "source_hints": [
+        "Made in America",
+        "letters and talks",
+        "retail case studies"
+      ]
+    },
+    {
+      "slug": "herb-kelleher",
+      "name_zh": "赫伯·凯莱赫",
+      "name_en": "Herb Kelleher",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "culture, service, low-cost execution",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "building strong service culture without losing operating discipline",
+      "ordinary_people_value": "useful for teams balancing warmth and performance",
+      "source_readiness": "strong",
+      "risk_note": "culture stories can hide the hard economics underneath",
+      "recommended_skill_angle": "culture with operational discipline",
+      "source_hints": [
+        "interviews and speeches",
+        "Southwest case studies",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "reed-hastings",
+      "name_zh": "里德·哈斯廷斯",
+      "name_en": "Reed Hastings",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "organizational design, candor, talent density",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "designing teams, feedback norms, and strategic resets",
+      "ordinary_people_value": "useful for leaders designing high-accountability teams",
+      "source_readiness": "strong",
+      "risk_note": "Netflix-specific context can be overgeneralized",
+      "recommended_skill_angle": "organizational design, candor, talent density",
+      "source_hints": [
+        "No Rules Rules",
+        "interviews",
+        "Netflix culture materials"
+      ]
+    },
+    {
+      "slug": "satya-nadella",
+      "name_zh": "萨提亚·纳德拉",
+      "name_en": "Satya Nadella",
+      "region": "India / United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "empathy, cultural reset, strategic renewal",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/satya-nadella/SKILL.md",
+      "primary_use_case": "renewing culture, leading large systems, learning-oriented leadership",
+      "ordinary_people_value": "useful for leaders trying to soften culture without losing standards",
+      "source_readiness": "strong",
+      "risk_note": "large-enterprise context needs simplification for small teams",
+      "recommended_skill_angle": "empathy, learning culture, strategic renewal",
+      "source_hints": [
+        "Hit Refresh",
+        "interviews and talks",
+        "Microsoft renewal studies"
+      ]
+    },
+    {
+      "slug": "bill-gates",
+      "name_zh": "比尔·盖茨",
+      "name_en": "Bill Gates",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "learning, memo culture, platform strategy",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "structured reading, memo-based thinking, long-horizon technology judgment",
+      "ordinary_people_value": "useful for reading habits, writing, and strategic learning",
+      "source_readiness": "strong",
+      "risk_note": "extreme scale and era advantage require filtering",
+      "recommended_skill_angle": "reading, memo thinking, platform judgment",
+      "source_hints": [
+        "interviews and memos",
+        "annual letters",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "paul-graham",
+      "name_zh": "保罗·格雷厄姆",
+      "name_en": "Paul Graham",
+      "region": "United Kingdom / United States",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "clear thinking, startup judgment, writing",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "writing clearly, seeing startup patterns, judging work that matters",
+      "ordinary_people_value": "useful for founders, writers, and builders who need clarity",
+      "source_readiness": "strong",
+      "risk_note": "startup selection bias and essay culture need filtering",
+      "recommended_skill_angle": "clear writing and builder judgment",
+      "source_hints": [
+        "essays",
+        "interviews",
+        "YC materials"
+      ]
+    },
+    {
+      "slug": "naval-ravikant",
+      "name_zh": "纳瓦尔·拉维坎特",
+      "name_en": "Naval Ravikant",
+      "region": "India / United States",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "leverage, judgment, life design",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "thinking about leverage, quiet compounding, and self-directed work",
+      "ordinary_people_value": "useful for career design and judgment about what compounds",
+      "source_readiness": "strong",
+      "risk_note": "quote culture can turn nuanced ideas into wealth slogans",
+      "recommended_skill_angle": "leverage, judgment, life design",
+      "source_hints": [
+        "podcasts and interviews",
+        "threads and talks",
+        "credible profile pieces"
+      ]
+    },
+    {
+      "slug": "john-wooden",
+      "name_zh": "约翰·伍登",
+      "name_en": "John Wooden",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "standards, coaching, daily discipline",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "setting standards, coaching people, winning through basics",
+      "ordinary_people_value": "useful for parenting, coaching, leading, and habit formation",
+      "source_readiness": "strong",
+      "risk_note": "sports language can be copied without enough translation",
+      "recommended_skill_angle": "basics, standards, daily discipline",
+      "source_hints": [
+        "Wooden on Leadership",
+        "talks and interviews",
+        "coaching studies"
+      ]
+    },
+    {
+      "slug": "jim-sinegal",
+      "name_zh": "吉姆·西内加尔",
+      "name_en": "Jim Sinegal",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "cost discipline, trust, operational simplicity",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "building trust-based operations with simple economics",
+      "ordinary_people_value": "useful for managers balancing numbers and long-term trust",
+      "source_readiness": "medium",
+      "risk_note": "Costco context is specific and sources are thinner than more famous founders",
+      "recommended_skill_angle": "cost discipline with trust",
+      "source_hints": [
+        "interviews and talks",
+        "Costco case studies",
+        "credible profiles"
+      ]
+    },
+    {
+      "slug": "daniel-kahneman",
+      "name_zh": "丹尼尔·卡尼曼",
+      "name_en": "Daniel Kahneman",
+      "region": "Israel / United States",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "biases, judgment, decision hygiene",
+      "status": "draft_skill",
+      "distillation_priority": "p-next",
+      "skill_path": ".agents/skills/daniel-kahneman/SKILL.md",
+      "primary_use_case": "improving judgment, slowing bad decisions, checking bias",
+      "ordinary_people_value": "useful for almost any important decision where bias and haste matter",
+      "source_readiness": "strong",
+      "risk_note": "popularization can become bias name-dropping instead of better process",
+      "recommended_skill_angle": "decision hygiene and bias-aware judgment",
+      "source_hints": [
+        "Thinking, Fast and Slow",
+        "Noise",
+        "interviews and decision research"
+      ]
+    },
+    {
+      "slug": "tao-yuanming",
+      "name_zh": "陶渊明",
+      "name_en": "Tao Yuanming",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "life-guidance"
+      ],
+      "domain": "simplicity, inner steadiness, life order",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "stepping back from noise, restoring life order, keeping inner steadiness",
+      "ordinary_people_value": "useful for people overwhelmed by comparison, noise, and externally driven ambition",
+      "source_readiness": "strong",
+      "risk_note": "pastoral image can become escapist if not translated into practical modern choices",
+      "recommended_skill_angle": "simplicity, inner steadiness, life order",
+      "source_hints": [
+        "poems and prose",
+        "biographical materials",
+        "Chinese literary studies"
+      ]
+    },
+    {
+      "slug": "sima-guang",
+      "name_zh": "司马光",
+      "name_en": "Sima Guang",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "discipline, historical judgment, long-horizon work",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "steady scholarship, patient large projects, careful judgment",
+      "ordinary_people_value": "useful for people doing slow, important work that requires discipline and accuracy",
+      "source_readiness": "strong",
+      "risk_note": "historical and political context can overshadow the practical work ethic",
+      "recommended_skill_angle": "discipline, patience, long-horizon work",
+      "source_hints": [
+        "historical writings",
+        "letters and memorials",
+        "Song history studies"
+      ]
+    },
+    {
+      "slug": "zheng-banqiao",
+      "name_zh": "郑板桥",
+      "name_en": "Zheng Banqiao",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "plain living, moral clarity, expressive restraint",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "keeping moral clarity and individuality without becoming theatrical",
+      "ordinary_people_value": "useful for people who want to stay plain, honest, and grounded under pressure",
+      "source_readiness": "medium",
+      "risk_note": "popular anecdotes can overwhelm the more reliable writings",
+      "recommended_skill_angle": "plain living and moral clarity",
+      "source_hints": [
+        "poems and letters",
+        "painting-related notes",
+        "Qing cultural studies"
+      ]
+    },
+    {
+      "slug": "wang-guowei",
+      "name_zh": "王国维",
+      "name_en": "Wang Guowei",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "life-guidance"
+      ],
+      "domain": "deep study, aesthetic seriousness, intellectual honesty",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "serious reading, depth of thought, staying honest in scholarship",
+      "ordinary_people_value": "useful for learners who want to move from shallow familiarity to real depth",
+      "source_readiness": "strong",
+      "risk_note": "his tragic life can distort attention away from the study method",
+      "recommended_skill_angle": "depth, seriousness, intellectual honesty",
+      "source_hints": [
+        "essays and notes",
+        "scholarship profiles",
+        "modern Chinese thought studies"
+      ]
+    },
+    {
+      "slug": "feng-zikai",
+      "name_zh": "丰子恺",
+      "name_en": "Feng Zikai",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "gentleness, observation, everyday ethics",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "recovering humanity, observation, and calmness in everyday life",
+      "ordinary_people_value": "useful for people trying to live more gently and attentively without becoming vague",
+      "source_readiness": "strong",
+      "risk_note": "gentle style can be mistaken for softness without standards",
+      "recommended_skill_angle": "gentleness, observation, everyday ethics",
+      "source_hints": [
+        "essays and drawings",
+        "letters",
+        "biographical studies"
+      ]
+    },
+    {
+      "slug": "wu-jun",
+      "name_zh": "吴军",
+      "name_en": "Wu Jun",
+      "region": "China",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "technology judgment, learning, long-term thinking",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "technical learning, industry judgment, long-term career thinking",
+      "ordinary_people_value": "useful for knowledge workers, engineers, and long-term learners",
+      "source_readiness": "strong",
+      "risk_note": "popular science packaging can flatten nuance if not traced back carefully",
+      "recommended_skill_angle": "technology judgment and long-term learning",
+      "source_hints": [
+        "books and columns",
+        "talks and interviews",
+        "credible profiles"
+      ]
+    },
+    {
+      "slug": "liang-ning",
+      "name_zh": "梁宁",
+      "name_en": "Liang Ning",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "product insight, user need judgment",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "seeing user needs, clarifying product value, sensing market fit",
+      "ordinary_people_value": "useful for product work, positioning, and demand judgment",
+      "source_readiness": "medium",
+      "risk_note": "course-style summaries need careful filtering against stronger primary materials",
+      "recommended_skill_angle": "user need judgment and product insight",
+      "source_hints": [
+        "talks and interviews",
+        "product writings",
+        "credible tech profiles"
+      ]
+    },
+    {
+      "slug": "wang-chuanfu",
+      "name_zh": "王传福",
+      "name_en": "Wang Chuanfu",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "manufacturing execution, engineering persistence",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "hard-tech building, manufacturing persistence, vertical integration judgment",
+      "ordinary_people_value": "useful for builders who need patience and engineering realism",
+      "source_readiness": "medium",
+      "risk_note": "large industrial context can overfit some lessons",
+      "recommended_skill_angle": "engineering persistence and manufacturing execution",
+      "source_hints": [
+        "interviews and speeches",
+        "BYD-related materials",
+        "industry profiles"
+      ]
+    },
+    {
+      "slug": "li-ka-shing",
+      "name_zh": "李嘉诚",
+      "name_en": "Li Ka-shing",
+      "region": "Hong Kong",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "prudence, timing, capital discipline",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "risk control, long-cycle judgment, careful expansion",
+      "ordinary_people_value": "useful for people needing prudence, timing, and downside awareness",
+      "source_readiness": "strong",
+      "risk_note": "wealth myth can overshadow the more practical discipline and risk controls",
+      "recommended_skill_angle": "prudence, timing, downside control",
+      "source_hints": [
+        "interviews and speeches",
+        "letters and public statements",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "chu-shijian",
+      "name_zh": "褚时健",
+      "name_en": "Chu Shijian",
+      "region": "China",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "rebuilding, resilience, grounded execution",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "starting again after loss, rebuilding from the ground up, keeping practical discipline",
+      "ordinary_people_value": "useful for people facing failure, restart, or late-life reinvention",
+      "source_readiness": "strong",
+      "risk_note": "public legend can simplify the slower, less romantic rebuilding process",
+      "recommended_skill_angle": "rebuilding after setback and grounded execution",
+      "source_hints": [
+        "interviews and documentaries",
+        "biographical materials",
+        "credible business profiles"
+      ]
+    },
+    {
+      "slug": "zhang-lei",
+      "name_zh": "张磊",
+      "name_en": "Zhang Lei",
+      "region": "China",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "long-term investing, judgment, concentration",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "concentration, long-term conviction, and selective attention",
+      "ordinary_people_value": "useful for decision-makers who need better filtering and longer horizons",
+      "source_readiness": "medium",
+      "risk_note": "investment framing can crowd out broader judgment lessons",
+      "recommended_skill_angle": "concentration, judgment, long-term selection",
+      "source_hints": [
+        "talks and interviews",
+        "book materials",
+        "credible investor profiles"
+      ]
+    },
+    {
+      "slug": "stephen-covey",
+      "name_zh": "史蒂芬·柯维",
+      "name_en": "Stephen Covey",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "habits, responsibility, principle-centered living",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "building habits, clarifying principles, managing self and roles",
+      "ordinary_people_value": "useful for ordinary users because the framework maps directly to everyday behavior and planning",
+      "source_readiness": "strong",
+      "risk_note": "self-help popularity can blur which ideas are still genuinely useful",
+      "recommended_skill_angle": "habits, responsibility, principle-centered action",
+      "source_hints": [
+        "The 7 Habits of Highly Effective People",
+        "talks and interviews",
+        "leadership materials"
+      ]
+    },
+    {
+      "slug": "clayton-christensen",
+      "name_zh": "克莱顿·克里斯坦森",
+      "name_en": "Clayton Christensen",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance",
+        "study"
+      ],
+      "domain": "disruption, choice, career and life trade-offs",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "seeing hidden shifts, making long-term career choices, avoiding local optimization",
+      "ordinary_people_value": "useful for founders, managers, and individuals deciding how to spend their lives",
+      "source_readiness": "strong",
+      "risk_note": "disruption language is often overused and needs careful framing",
+      "recommended_skill_angle": "disruption judgment and life trade-offs",
+      "source_hints": [
+        "The Innovator's Dilemma",
+        "How Will You Measure Your Life?",
+        "talks and interviews"
+      ]
+    },
+    {
+      "slug": "ed-catmull",
+      "name_zh": "艾德·卡特姆",
+      "name_en": "Ed Catmull",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "creative teams, candor, process design",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "leading creative teams, improving feedback, protecting quality under uncertainty",
+      "ordinary_people_value": "useful for leaders managing creative or knowledge work",
+      "source_readiness": "strong",
+      "risk_note": "Pixar-specific culture can be copied too literally",
+      "recommended_skill_angle": "creative leadership, candor, process design",
+      "source_hints": [
+        "Creativity, Inc.",
+        "interviews and talks",
+        "Pixar-related materials"
+      ]
+    },
+    {
+      "slug": "jiro-ono",
+      "name_zh": "小野二郎",
+      "name_en": "Jiro Ono",
+      "region": "Japan",
+      "fit_buckets": [
+        "life",
+        "work",
+        "study"
+      ],
+      "domain": "craft, repetition, standards",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "pursuing mastery through repetition and uncompromising basics",
+      "ordinary_people_value": "useful for anyone building craft through routine and attention to detail",
+      "source_readiness": "strong",
+      "risk_note": "mastery culture can be romanticized into unhealthy perfectionism",
+      "recommended_skill_angle": "craft discipline and repeated basics",
+      "source_hints": [
+        "documentary materials",
+        "interviews",
+        "craft and culinary profiles"
+      ]
+    },
+    {
+      "slug": "indra-nooyi",
+      "name_zh": "英德拉·努伊",
+      "name_en": "Indra Nooyi",
+      "region": "India / United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "leadership, strategy, stakeholder balance",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "leading at scale while balancing performance, empathy, and complexity",
+      "ordinary_people_value": "useful for leadership, communication, and balancing multiple responsibilities",
+      "source_readiness": "strong",
+      "risk_note": "large-corporate context needs simplification for smaller teams",
+      "recommended_skill_angle": "leadership, stakeholder balance, strategic clarity",
+      "source_hints": [
+        "memoir and interviews",
+        "speeches",
+        "PepsiCo profiles"
+      ]
+    },
+    {
+      "slug": "mary-barra",
+      "name_zh": "玛丽·博拉",
+      "name_en": "Mary Barra",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "steady leadership, accountability, transformation",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "leading change in established organizations while keeping accountability clear",
+      "ordinary_people_value": "useful for managers leading change without drama",
+      "source_readiness": "strong",
+      "risk_note": "auto industry context may narrow transfer if over-literalized",
+      "recommended_skill_angle": "steady transformation and accountability",
+      "source_hints": [
+        "interviews and speeches",
+        "GM profiles",
+        "leadership case studies"
+      ]
+    },
+    {
+      "slug": "ag-lafley",
+      "name_zh": "A.G. 拉夫利",
+      "name_en": "A.G. Lafley",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "consumer understanding, strategy, management simplicity",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "understanding customers, clarifying strategy, and simplifying management choices",
+      "ordinary_people_value": "useful for product, brand, and management work",
+      "source_readiness": "strong",
+      "risk_note": "brand-management context can be over-narrowed",
+      "recommended_skill_angle": "customer understanding and management simplicity",
+      "source_hints": [
+        "The Game-Changer",
+        "interviews",
+        "P&G case studies"
+      ]
+    },
+    {
+      "slug": "howard-schultz",
+      "name_zh": "霍华德·舒尔茨",
+      "name_en": "Howard Schultz",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "service culture, brand building, reinvention",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "building service culture and restoring direction during drift",
+      "ordinary_people_value": "useful for operators who need culture and customer experience together",
+      "source_readiness": "strong",
+      "risk_note": "brand mythology can overshadow operational choices",
+      "recommended_skill_angle": "service culture and brand-led reinvention",
+      "source_hints": [
+        "memoirs and interviews",
+        "Starbucks materials",
+        "retail profiles"
+      ]
+    },
+    {
+      "slug": "yvon-chouinard",
+      "name_zh": "伊冯·乔伊纳德",
+      "name_en": "Yvon Chouinard",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "values, restraint, mission-led business",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "building with values, saying no to harmful growth patterns, keeping mission integrity",
+      "ordinary_people_value": "useful for founders and individuals choosing integrity over maximal extraction",
+      "source_readiness": "strong",
+      "risk_note": "brand halo can flatten the harder trade-offs behind the values",
+      "recommended_skill_angle": "values, restraint, mission-led building",
+      "source_hints": [
+        "Let My People Go Surfing",
+        "interviews",
+        "Patagonia materials"
+      ]
+    },
+    {
+      "slug": "ben-horowitz",
+      "name_zh": "本·霍洛维茨",
+      "name_en": "Ben Horowitz",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "hard decisions, leadership under stress",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "handling layoffs, conflict, and hard founder decisions without denial",
+      "ordinary_people_value": "useful for leaders facing pressure and ugly trade-offs",
+      "source_readiness": "strong",
+      "risk_note": "startup-intensity framing can be copied too aggressively",
+      "recommended_skill_angle": "hard decisions and leadership under stress",
+      "source_hints": [
+        "The Hard Thing About Hard Things",
+        "interviews and talks",
+        "founder materials"
+      ]
+    },
+    {
+      "slug": "phil-jackson",
+      "name_zh": "菲尔·杰克逊",
+      "name_en": "Phil Jackson",
+      "region": "United States",
+      "fit_buckets": [
+        "work",
+        "life-guidance"
+      ],
+      "domain": "team leadership, ego management, calm under pressure",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "leading talented teams with strong personalities and high stakes",
+      "ordinary_people_value": "useful for people managing teams where talent and ego both matter",
+      "source_readiness": "strong",
+      "risk_note": "sports context can obscure the more general team-leadership lessons",
+      "recommended_skill_angle": "ego management, team calm, high-stakes leadership",
+      "source_hints": [
+        "Eleven Rings",
+        "interviews",
+        "coaching materials"
+      ]
+    },
+    {
+      "slug": "cal-newport",
+      "name_zh": "卡尔·纽波特",
+      "name_en": "Cal Newport",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "deep work, focus, attention management",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "recovering focus, protecting attention, producing better work",
+      "ordinary_people_value": "useful for knowledge workers and students dealing with distraction",
+      "source_readiness": "strong",
+      "risk_note": "productivity packaging can make the method seem simpler than it is",
+      "recommended_skill_angle": "deep work and attention protection",
+      "source_hints": [
+        "Deep Work",
+        "So Good They Can't Ignore You",
+        "talks and essays"
+      ]
+    },
+    {
+      "slug": "james-clear",
+      "name_zh": "詹姆斯·克利尔",
+      "name_en": "James Clear",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "habits, identity change, environment design",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "building better habits through small changes and environment design",
+      "ordinary_people_value": "useful for nearly anyone trying to change routines or sustain good behavior",
+      "source_readiness": "strong",
+      "risk_note": "habit advice can become over-simplified if detached from context",
+      "recommended_skill_angle": "small habits, identity, environment design",
+      "source_hints": [
+        "Atomic Habits",
+        "newsletter essays",
+        "interviews"
+      ]
+    },
+    {
+      "slug": "atul-gawande",
+      "name_zh": "阿图尔·葛文德",
+      "name_en": "Atul Gawande",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "checklists, complexity, humane professionalism",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "handling complexity with checklists while keeping humane professional judgment",
+      "ordinary_people_value": "useful for teams and individuals managing important error-prone work",
+      "source_readiness": "strong",
+      "risk_note": "medical context needs translation into broader operational settings",
+      "recommended_skill_angle": "checklists, complexity, humane professionalism",
+      "source_hints": [
+        "The Checklist Manifesto",
+        "essays and talks",
+        "public health materials"
+      ]
+    },
+    {
+      "slug": "barbara-minto",
+      "name_zh": "芭芭拉·明托",
+      "name_en": "Barbara Minto",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "work"
+      ],
+      "domain": "structured thinking, clear communication, writing",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "organizing ideas, writing clearer documents, thinking top-down",
+      "ordinary_people_value": "useful for anyone who needs to explain complex ideas clearly",
+      "source_readiness": "strong",
+      "risk_note": "framework use can become formulaic if applied mechanically",
+      "recommended_skill_angle": "structured thinking and clear communication",
+      "source_hints": [
+        "The Pyramid Principle",
+        "consulting communication materials",
+        "credible summaries"
+      ]
+    },
+    {
+      "slug": "richard-hamming",
+      "name_zh": "理查德·汉明",
+      "name_en": "Richard Hamming",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "serious work, scientific ambition, clear thinking",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "doing important work, asking better questions, treating time seriously",
+      "ordinary_people_value": "useful for ambitious learners and researchers who want higher standards",
+      "source_readiness": "strong",
+      "risk_note": "scientific career framing needs translation for broader audiences",
+      "recommended_skill_angle": "serious work and better questions",
+      "source_hints": [
+        "The Art of Doing Science and Engineering",
+        "lectures and talks",
+        "Bell Labs materials"
+      ]
+    },
+    {
+      "slug": "claude-shannon",
+      "name_zh": "克劳德·香农",
+      "name_en": "Claude Shannon",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "work"
+      ],
+      "domain": "playful rigor, abstraction, problem framing",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "framing hard problems cleanly and staying playful while doing serious work",
+      "ordinary_people_value": "useful for technical thinkers who need both rigor and creative framing",
+      "source_readiness": "strong",
+      "risk_note": "mathematical genius can intimidate if not translated into method",
+      "recommended_skill_angle": "abstraction, playful rigor, problem framing",
+      "source_hints": [
+        "biographies",
+        "Bell Labs materials",
+        "credible science profiles"
+      ]
+    },
+    {
+      "slug": "david-ogilvy",
+      "name_zh": "大卫·奥格威",
+      "name_en": "David Ogilvy",
+      "region": "United Kingdom",
+      "fit_buckets": [
+        "work",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "clear writing, persuasion, customer attention",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "writing messages people actually notice, keeping persuasion grounded in reality",
+      "ordinary_people_value": "useful for writing, marketing, and communication where attention is scarce",
+      "source_readiness": "strong",
+      "risk_note": "advertising culture can drift toward manipulation if not bounded clearly",
+      "recommended_skill_angle": "clear writing and reality-based persuasion",
+      "source_hints": [
+        "Ogilvy on Advertising",
+        "letters and memos",
+        "advertising history materials"
+      ]
+    },
+    {
+      "slug": "maria-montessori",
+      "name_zh": "玛丽亚·蒙台梭利",
+      "name_en": "Maria Montessori",
+      "region": "Italy",
+      "fit_buckets": [
+        "study",
+        "life",
+        "life-guidance"
+      ],
+      "domain": "learning environment, autonomy, growth",
+      "status": "candidate",
+      "distillation_priority": "candidate-high",
+      "skill_path": null,
+      "primary_use_case": "designing environments that support self-directed learning and development",
+      "ordinary_people_value": "useful for parents, teachers, and anyone building conditions for growth",
+      "source_readiness": "strong",
+      "risk_note": "education method branding can overshadow the deeper observation-based approach",
+      "recommended_skill_angle": "learning environment, autonomy, observation",
+      "source_hints": [
+        "Montessori writings",
+        "education materials",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "brene-brown",
+      "name_zh": "布琳·布朗",
+      "name_en": "Brene Brown",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "work",
+        "life-guidance"
+      ],
+      "domain": "vulnerability, courage, shame resilience",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "leading and living with more honesty, courage, and emotional clarity",
+      "ordinary_people_value": "useful for communication, leadership, and emotional resilience",
+      "source_readiness": "strong",
+      "risk_note": "popular talk culture can simplify nuance into slogans",
+      "recommended_skill_angle": "courage, vulnerability, shame resilience",
+      "source_hints": [
+        "books and talks",
+        "podcasts and interviews",
+        "research-based materials"
+      ]
+    },
+    {
+      "slug": "angela-duckworth",
+      "name_zh": "安吉拉·达克沃斯",
+      "name_en": "Angela Duckworth",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "life",
+        "work"
+      ],
+      "domain": "grit, motivation, long-term effort",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "sustaining effort over time and understanding what makes persistence work",
+      "ordinary_people_value": "useful for learners, parents, and builders who need steadier long-term effort",
+      "source_readiness": "strong",
+      "risk_note": "grit is often oversimplified and needs balance with fit and strategy",
+      "recommended_skill_angle": "long-term effort and realistic persistence",
+      "source_hints": [
+        "Grit",
+        "talks and interviews",
+        "motivation research materials"
+      ]
+    },
+    {
+      "slug": "jane-goodall",
+      "name_zh": "简·古道尔",
+      "name_en": "Jane Goodall",
+      "region": "United Kingdom",
+      "fit_buckets": [
+        "study",
+        "life-guidance"
+      ],
+      "domain": "observation, patience, moral seriousness",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "learning through patient observation and maintaining moral seriousness over long work",
+      "ordinary_people_value": "useful for patient learners, observers, and mission-driven workers",
+      "source_readiness": "strong",
+      "risk_note": "public hero image can flatten the method into inspiration only",
+      "recommended_skill_angle": "patient observation and moral seriousness",
+      "source_hints": [
+        "memoirs and interviews",
+        "fieldwork materials",
+        "credible biographies"
+      ]
+    },
+    {
+      "slug": "toni-morrison",
+      "name_zh": "托妮·莫里森",
+      "name_en": "Toni Morrison",
+      "region": "United States",
+      "fit_buckets": [
+        "study",
+        "life",
+        "life-guidance"
+      ],
+      "domain": "serious writing, voice, standards",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "finding a voice, writing seriously, and holding standards over long creative work",
+      "ordinary_people_value": "useful for writers and anyone building a clear voice through disciplined craft",
+      "source_readiness": "strong",
+      "risk_note": "literary greatness can intimidate and obscure the craft process",
+      "recommended_skill_angle": "voice, standards, disciplined writing",
+      "source_hints": [
+        "essays and interviews",
+        "novelist talks",
+        "credible literary profiles"
+      ]
+    },
+    {
+      "slug": "maya-angelou",
+      "name_zh": "玛雅·安杰洛",
+      "name_en": "Maya Angelou",
+      "region": "United States",
+      "fit_buckets": [
+        "life",
+        "study",
+        "life-guidance"
+      ],
+      "domain": "dignity, expression, resilience",
+      "status": "candidate",
+      "distillation_priority": "candidate-medium",
+      "skill_path": null,
+      "primary_use_case": "recovering dignity, expressing clearly, and carrying resilience without hardness",
+      "ordinary_people_value": "useful for people facing setbacks, self-expression, and rebuilding confidence",
+      "source_readiness": "strong",
+      "risk_note": "quote culture can flatten her into aphorisms without deeper context",
+      "recommended_skill_angle": "dignity, expression, resilience",
+      "source_hints": [
+        "memoirs",
+        "interviews and talks",
+        "credible biographies"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "陶行知"
+  short_description: "按陶行知的教学做合一与实践成长方法分析问题并给出建议"
+  default_prompt: "Use $tao-xingzhi to analyze this situation in 陶行知式思路，并给出可执行建议。"
