@@ -1,0 +1,45 @@
+# Steve Jobs skill 说明
+
+## 这个 skill 主要解决什么
+
+这个 skill 不是语录堆砌，也不是夸张扮演，而是把 Steve Jobs 反复出现的方法论整理成可调用的认知操作系统。
+
+核心方向：
+
+- 按Steve Jobs的方法论分析问题并给出可执行建议
+
+更适合放到这四类问题里使用：
+
+- `生活`：习惯、情绪、关系、秩序、长期方向
+- `学习`：理解、练习、解释、节奏、复盘
+- `工作`：判断、执行、沟通、带人、取舍
+- `人生指导`：转折期、重大选择、失误修正、下一步怎么走
+
+## 怎么调用
+
+建议在提问时补足这几个参数：
+
+- `问题类型`：生活 / 学习 / 工作 / 人生指导
+- `任务模式`：快速判断 / 行动方案 / 沟通草稿 / 30天计划
+- `约束条件`：时间、资源、关系人、风险、不能碰的边界
+- `语气要求`：默认分析模式；如果你明确要求，也可以带一点 Steve Jobs 的风格
+
+直接调用示例：
+
+```text
+Use $steve-jobs-skill to analyze this situation with the method of Steve Jobs and give me a practical plan.
+```
+
+## 使用提醒
+
+- 默认优先现代、清晰、可执行，不做夸张角色扮演
+- 如果问题超出 Steve Jobs 的高置信范围，skill 应该明确说明不确定
+- 更好的效果来自“方法迁移”，不是“口气模仿”
+
+## 建议先看
+
+- `SKILL.md`
+- `references/source-map.md`
+- `references/principles.md`
+- `references/demo.zh-CN.md`
+- `references/research.zh-CN.md`

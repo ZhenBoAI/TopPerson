@@ -61,12 +61,17 @@
 ```text
 .agents/skills/<skill-name>/references/overview.zh-CN.md
 .agents/skills/<skill-name>/references/overview.en.md
+.agents/skills/<skill-name>/references/demo.zh-CN.md
+.agents/skills/<skill-name>/references/demo.en.md
+.agents/skills/<skill-name>/references/research.zh-CN.md
+.agents/skills/<skill-name>/references/research.en.md
 ```
 
 文件用途：
 
 - `SKILL.md`
-  主 skill 文件，说明 skill 做什么、何时触发、怎么输出。
+  主 skill 文件，说明 skill 做什么、何时触发、怎么输出。建议包含 `Invocation Parameters`、`Response Modes`、`Core Models`、`Voice And Delivery`、`Honest Boundary`。
+  更完整的 skill 建议再加上 `Expression DNA` 和 `Values And Anti-Patterns`。
 - `references/source-map.md`
   写清来源层级，一手资料、二手资料、低置信资料如何排序。
 - `references/principles.md`
@@ -75,12 +80,20 @@
   可选中文说明，适合给仓库访客阅读。
 - `references/overview.en.md`
   可选英文说明，适合给仓库访客阅读。
+- `references/demo.zh-CN.md`
+  可选中文示例，适合展示怎么提问、怎么读输出。
+- `references/demo.en.md`
+  可选英文示例，适合展示怎么提问、怎么读输出。
+- `references/research.zh-CN.md`
+  可选中文研究简报，适合继续补来源、主题与研究问题。
+- `references/research.en.md`
+  可选英文研究简报，适合继续补来源、主题与研究问题。
 - `agents/openai.yaml`
   用于 UI 与调用元数据。
 
 ## 命名规范
 
-- skill 文件夹名使用小写加连字符，例如 `zeng-guofan`
+- skill 文件夹名使用小写加连字符，例如 `zeng-guofan-skill`
 - `SKILL.md` frontmatter 中的 `name` 必须与文件夹名一致
 - 名称应尽量简短、稳定、可预测
 
@@ -146,6 +159,22 @@
 - 沟通建议
 - 反思问题
 
+### 6. 让 skill 支持参数化调用
+
+建议默认支持这四类任务模式：
+
+- `快速判断`
+- `行动方案`
+- `沟通草稿`
+- `30天计划`
+
+也建议在 `SKILL.md` 里明确使用时先锁定：
+
+- `问题类型`
+- `任务模式`
+- `约束条件`
+- `语气要求`
+
 ## 推荐流程
 
 1. 整理人物的真实来源
@@ -153,8 +182,10 @@
 3. 在 `principles.md` 里提炼核心方法
 4. 在 `SKILL.md` 里写触发条件、使用方法、输出格式、边界
 5. 可选补充 `overview.zh-CN.md` 和/或 `overview.en.md`
-6. 本地运行校验脚本
-7. 提交 PR
+6. 可选补充 `demo.zh-CN.md` 和/或 `demo.en.md`
+7. 可选补充 `research.zh-CN.md` 和/或 `research.en.md`
+8. 本地运行校验脚本
+9. 提交 PR
 
 ## 提交前自查
 
@@ -163,6 +194,7 @@
 - 必需文件都在
 - `references/source-map.md` 写清来源层级
 - `references/principles.md` 不是纯摘抄
+- `python3 scripts/validate_skill_content.py` 可以通过更深内容校验
 - 没有明显伪史料、伪引文、伪科学内容
 - 没有鼓励非法、欺骗、操控、伤害性的建议
 

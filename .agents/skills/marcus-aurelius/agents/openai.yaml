@@ -1,4 +1,0 @@
-interface:
-  display_name: "Marcus Aurelius"
-  short_description: "按Marcus Aurelius的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $marcus-aurelius to analyze this situation in Marcus Aurelius式思路，并给出可执行建议。"

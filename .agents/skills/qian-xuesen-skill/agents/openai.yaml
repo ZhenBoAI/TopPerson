@@ -1,0 +1,4 @@
+interface:
+  display_name: "钱学森"
+  short_description: "按钱学森的系统思维与复杂工程方法分析问题并给出建议"
+  default_prompt: "Use $qian-xuesen-skill to analyze this situation with the method of 钱学森 and return a quick judgment, action plan, conversation draft, or 30-day plan."

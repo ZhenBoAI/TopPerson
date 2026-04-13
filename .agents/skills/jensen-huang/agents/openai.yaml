@@ -1,4 +1,0 @@
-interface:
-  display_name: "Jensen Huang"
-  short_description: "按Jensen Huang的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $jensen-huang to analyze this situation in Jensen Huang式思路，并给出可执行建议。"

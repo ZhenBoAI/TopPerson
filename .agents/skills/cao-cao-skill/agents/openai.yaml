@@ -1,0 +1,4 @@
+interface:
+  display_name: "曹操"
+  short_description: "按曹操的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $cao-cao-skill to analyze this situation with the method of 曹操 and return a quick judgment, action plan, conversation draft, or 30-day plan."

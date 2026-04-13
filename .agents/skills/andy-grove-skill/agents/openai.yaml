@@ -1,0 +1,4 @@
+interface:
+  display_name: "Andy Grove"
+  short_description: "按Andy Grove的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $andy-grove-skill to analyze this situation with the method of Andy Grove and return a quick judgment, action plan, conversation draft, or 30-day plan."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Jeff Bezos"
-  short_description: "按Jeff Bezos的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $jeff-bezos to analyze this situation in Jeff Bezos式思路，并给出可执行建议。"

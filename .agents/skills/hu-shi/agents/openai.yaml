@@ -1,4 +1,0 @@
-interface:
-  display_name: "胡适"
-  short_description: "按胡适的怀疑、证据与清楚表达方法分析问题并给出建议"
-  default_prompt: "Use $hu-shi to analyze this situation in 胡适式思路，并给出可执行建议。"

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Lee Kuan Yew"
-  short_description: "按Lee Kuan Yew的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $lee-kuan-yew to analyze this situation in Lee Kuan Yew式思路，并给出可执行建议。"

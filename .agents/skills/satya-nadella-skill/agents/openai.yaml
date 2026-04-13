@@ -1,0 +1,4 @@
+interface:
+  display_name: "萨提亚·纳德拉"
+  short_description: "按纳德拉的共情与学习型文化方法分析问题并给出建议"
+  default_prompt: "Use $satya-nadella-skill to analyze this situation with the method of 萨提亚·纳德拉 and return a quick judgment, action plan, conversation draft, or 30-day plan."

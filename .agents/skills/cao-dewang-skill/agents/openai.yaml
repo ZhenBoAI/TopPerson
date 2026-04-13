@@ -1,0 +1,4 @@
+interface:
+  display_name: "曹德旺"
+  short_description: "按曹德旺的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $cao-dewang-skill to analyze this situation with the method of 曹德旺 and return a quick judgment, action plan, conversation draft, or 30-day plan."

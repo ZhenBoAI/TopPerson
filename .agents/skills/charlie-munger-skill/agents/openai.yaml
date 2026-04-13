@@ -1,0 +1,4 @@
+interface:
+  display_name: "Charlie Munger"
+  short_description: "按Charlie Munger的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $charlie-munger-skill to analyze this situation with the method of Charlie Munger and return a quick judgment, action plan, conversation draft, or 30-day plan."

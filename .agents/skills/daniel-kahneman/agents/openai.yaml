@@ -1,4 +1,0 @@
-interface:
-  display_name: "丹尼尔·卡尼曼"
-  short_description: "按卡尼曼的偏差识别与决策卫生方法分析问题并给出建议"
-  default_prompt: "Use $daniel-kahneman to analyze this situation in Daniel Kahneman式思路，并给出可执行建议。"

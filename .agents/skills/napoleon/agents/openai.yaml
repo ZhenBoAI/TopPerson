@@ -1,4 +1,0 @@
-interface:
-  display_name: "Napoleon"
-  short_description: "按Napoleon的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $napoleon to analyze this situation in Napoleon式思路，并给出可执行建议。"

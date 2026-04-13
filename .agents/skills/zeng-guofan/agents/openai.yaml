@@ -1,4 +1,0 @@
-interface:
-  display_name: "曾国藩"
-  short_description: "用曾国藩的修身、识人、处事框架分析问题并给出行动建议"
-  default_prompt: "Use $zeng-guofan to analyze this situation in 曾国藩式做事风格，并给出可执行建议。"

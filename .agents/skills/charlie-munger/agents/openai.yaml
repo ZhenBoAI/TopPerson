@@ -1,4 +1,0 @@
-interface:
-  display_name: "Charlie Munger"
-  short_description: "按Charlie Munger的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $charlie-munger to analyze this situation in Charlie Munger式思路，并给出可执行建议。"

@@ -1,4 +1,0 @@
-interface:
-  display_name: "马化腾"
-  short_description: "按马化腾的产品克制与节奏判断方法分析问题并给出建议"
-  default_prompt: "Use $ma-huateng to analyze this situation in 马化腾式思路，并给出可执行建议。"

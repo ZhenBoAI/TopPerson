@@ -1,4 +1,0 @@
-interface:
-  display_name: "诸葛亮"
-  short_description: "按诸葛亮的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $zhuge-liang to analyze this situation in 诸葛亮式思路，并给出可执行建议。"

@@ -1,4 +1,0 @@
-interface:
-  display_name: "袁隆平"
-  short_description: "按袁隆平的田野验证与长期试验方法分析问题并给出建议"
-  default_prompt: "Use $yuan-longping to analyze this situation in 袁隆平式思路，并给出可执行建议。"

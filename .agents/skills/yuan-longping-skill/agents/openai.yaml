@@ -1,0 +1,4 @@
+interface:
+  display_name: "袁隆平"
+  short_description: "按袁隆平的田野验证与长期试验方法分析问题并给出建议"
+  default_prompt: "Use $yuan-longping-skill to analyze this situation with the method of 袁隆平 and return a quick judgment, action plan, conversation draft, or 30-day plan."

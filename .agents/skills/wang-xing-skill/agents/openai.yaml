@@ -1,0 +1,4 @@
+interface:
+  display_name: "王兴"
+  short_description: "按王兴的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $wang-xing-skill to analyze this situation with the method of 王兴 and return a quick judgment, action plan, conversation draft, or 30-day plan."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rafael Nadal"
+  short_description: "按Rafael Nadal的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $rafael-nadal-skill to analyze this situation with the method of Rafael Nadal and return a quick judgment, action plan, conversation draft, or 30-day plan."

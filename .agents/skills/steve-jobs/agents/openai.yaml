@@ -1,4 +1,0 @@
-interface:
-  display_name: "Steve Jobs"
-  short_description: "按Steve Jobs的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $steve-jobs to analyze this situation in Steve Jobs式思路，并给出可执行建议。"

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Ray Dalio"
-  short_description: "按Ray Dalio的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $ray-dalio to analyze this situation in Ray Dalio式思路，并给出可执行建议。"

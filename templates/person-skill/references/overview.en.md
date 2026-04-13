@@ -1,33 +1,40 @@
 # Person Skill Overview
 
-## What this skill does
+## What This Skill Is For
 
-Explain in 2-4 short paragraphs:
+Explain the core of the person's method and make clear which problem areas it best supports:
 
-- the core of this person's method
-- the kinds of problems it is useful for
+- `Life`
+- `Study`
+- `Work`
+- `Life guidance`
+
+Also state:
+
+- this is a cognitive operating system, not a quote collection
+- it defaults to analysis mode instead of forced roleplay
 - where it should not be used
 
-## What it is based on
+## How To Invoke It
 
-High-confidence sources:
+Recommend these parameters:
 
-- 
+- `problem-area`
+- `task-mode`
+- `constraints`
+- `voice-mode`
 
-Supporting interpretive sources:
+Supported task modes:
 
-- 
-
-Low-confidence or disputed materials:
-
-- 
-
-## How to use it
+- `quick-judgment`
+- `action-plan`
+- `conversation-draft`
+- `30-day-plan`
 
 Direct invocation:
 
 ```text
-Use $person-skill-name to analyze this situation in this person's style and give practical next steps.
+Use $person-skill-name to analyze this situation with the method of this person and give me a practical plan.
 ```
 
 Natural-language triggers:
@@ -36,11 +43,10 @@ Natural-language triggers:
 - 
 - 
 
-## Typical output shape
+## Usage Notes
 
-- Core judgment
-- First moves
-- Avoid
-- Short- and mid-term actions
-- Communication advice
-- Reflection question
+- If the evidence boundary is weak, say so clearly
+- Prioritize method transfer over surface imitation
+- Point readers to `SKILL.md`, `references/source-map.md`, and `references/principles.md`
+- If example files exist, also point readers to `references/demo.en.md`
+- If research briefs exist, also point readers to `references/research.en.md`

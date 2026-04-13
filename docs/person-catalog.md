@@ -47,7 +47,7 @@ It is different from the backlog:
 
 ## Suggested Next Distillation Picks
 
-If you want to keep expanding beyond the current 33 skill directories, these are strong next candidates:
+If you want to keep expanding beyond the current 45 skill directories, these are strong next candidates:
 
 - Confucius
 - Hu Shi

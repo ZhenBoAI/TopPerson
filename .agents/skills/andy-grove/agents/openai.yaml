@@ -1,4 +1,0 @@
-interface:
-  display_name: "Andy Grove"
-  short_description: "按Andy Grove的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $andy-grove to analyze this situation in Andy Grove式思路，并给出可执行建议。"

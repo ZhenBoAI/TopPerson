@@ -1,0 +1,4 @@
+interface:
+  display_name: "张瑞敏"
+  short_description: "按张瑞敏的问责与自我颠覆方法分析问题并给出建议"
+  default_prompt: "Use $zhang-ruimin-skill to analyze this situation with the method of 张瑞敏 and return a quick judgment, action plan, conversation draft, or 30-day plan."

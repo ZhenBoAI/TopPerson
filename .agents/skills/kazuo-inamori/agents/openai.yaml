@@ -1,4 +1,0 @@
-interface:
-  display_name: "稻盛和夫"
-  short_description: "按稻盛和夫的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $kazuo-inamori to analyze this situation in 稻盛和夫式思路，并给出可执行建议。"

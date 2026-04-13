@@ -61,12 +61,17 @@ Optional human-facing guide files:
 ```text
 .agents/skills/<skill-name>/references/overview.en.md
 .agents/skills/<skill-name>/references/overview.zh-CN.md
+.agents/skills/<skill-name>/references/demo.en.md
+.agents/skills/<skill-name>/references/demo.zh-CN.md
+.agents/skills/<skill-name>/references/research.en.md
+.agents/skills/<skill-name>/references/research.zh-CN.md
 ```
 
 File roles:
 
 - `SKILL.md`
-  Main skill file describing purpose, triggers, and output style.
+  Main skill file describing purpose, triggers, and output style. Prefer sections such as `Invocation Parameters`, `Response Modes`, `Core Models`, `Voice And Delivery`, and `Honest Boundary`.
+  Stronger skills should also include `Expression DNA` and `Values And Anti-Patterns`.
 - `references/source-map.md`
   Source hierarchy: primary, secondary, and low-confidence materials.
 - `references/principles.md`
@@ -75,12 +80,20 @@ File roles:
   Optional English guide for repository visitors.
 - `references/overview.zh-CN.md`
   Optional Simplified Chinese guide for repository visitors.
+- `references/demo.en.md`
+  Optional English example prompts and output-shape guide.
+- `references/demo.zh-CN.md`
+  Optional Chinese example prompts and output-shape guide.
+- `references/research.en.md`
+  Optional English research brief for deeper source guidance and next research questions.
+- `references/research.zh-CN.md`
+  Optional Chinese research brief for deeper source guidance and next research questions.
 - `agents/openai.yaml`
   UI-facing and invocation metadata.
 
 ## Naming Rules
 
-- Use lowercase hyphenated folder names such as `zeng-guofan`
+- Use lowercase hyphenated folder names such as `zeng-guofan-skill`
 - The `name` field in `SKILL.md` frontmatter must match the folder name
 - Names should be short, stable, and predictable
 
@@ -146,6 +159,22 @@ Each skill should suggest a stable default output structure, such as:
 - communication advice
 - reflection question
 
+### 6. Support Parameterized Invocation
+
+Prefer these four task modes by default:
+
+- `quick-judgment`
+- `action-plan`
+- `conversation-draft`
+- `30-day-plan`
+
+Also make the `SKILL.md` clear about these prompt parameters:
+
+- `problem-area`
+- `task-mode`
+- `constraints`
+- `voice-mode`
+
 ## Recommended Workflow
 
 1. Gather real sources
@@ -153,8 +182,10 @@ Each skill should suggest a stable default output structure, such as:
 3. Distill principles in `principles.md`
 4. Write triggers, usage, output, and boundaries in `SKILL.md`
 5. Optionally add `overview.en.md` and/or `overview.zh-CN.md`
-6. Run local validation
-7. Open a PR
+6. Optionally add `demo.en.md` and/or `demo.zh-CN.md`
+7. Optionally add `research.en.md` and/or `research.zh-CN.md`
+8. Run local validation
+9. Open a PR
 
 ## Pre-Submission Checklist
 
@@ -163,6 +194,7 @@ Each skill should suggest a stable default output structure, such as:
 - required files exist
 - `references/source-map.md` makes source hierarchy explicit
 - `references/principles.md` is distilled, not copied
+- `python3 scripts/validate_skill_content.py` passes for deeper skill content
 - there are no obvious fake sources, fake quotations, or pseudoscience
 - there is no unlawful, deceptive, manipulative, or harmful guidance
 

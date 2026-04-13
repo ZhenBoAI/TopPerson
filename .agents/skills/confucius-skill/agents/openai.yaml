@@ -1,0 +1,4 @@
+interface:
+  display_name: "孔子"
+  short_description: "按孔子的修身、学习与角色责任方法分析问题并给出建议"
+  default_prompt: "Use $confucius-skill to analyze this situation with the method of 孔子 and return a quick judgment, action plan, conversation draft, or 30-day plan."

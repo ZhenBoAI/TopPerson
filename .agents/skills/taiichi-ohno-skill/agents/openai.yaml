@@ -1,0 +1,4 @@
+interface:
+  display_name: "大野耐一"
+  short_description: "按大野耐一的去浪费与流程优化方法分析问题并给出建议"
+  default_prompt: "Use $taiichi-ohno-skill to analyze this situation with the method of 大野耐一 and return a quick judgment, action plan, conversation draft, or 30-day plan."

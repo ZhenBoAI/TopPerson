@@ -1,4 +1,0 @@
-interface:
-  display_name: "雷军"
-  short_description: "按雷军的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $lei-jun to analyze this situation in 雷军式思路，并给出可执行建议。"

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Rafael Nadal"
-  short_description: "按Rafael Nadal的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $rafael-nadal to analyze this situation in Rafael Nadal式思路，并给出可执行建议。"

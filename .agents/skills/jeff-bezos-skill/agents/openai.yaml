@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jeff Bezos"
+  short_description: "按Jeff Bezos的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $jeff-bezos-skill to analyze this situation with the method of Jeff Bezos and return a quick judgment, action plan, conversation draft, or 30-day plan."

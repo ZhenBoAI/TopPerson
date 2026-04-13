@@ -1,0 +1,4 @@
+interface:
+  display_name: "Peter Drucker"
+  short_description: "按Peter Drucker的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $peter-drucker-skill to analyze this situation with the method of Peter Drucker and return a quick judgment, action plan, conversation draft, or 30-day plan."

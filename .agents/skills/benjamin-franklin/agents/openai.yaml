@@ -1,4 +1,0 @@
-interface:
-  display_name: "Benjamin Franklin"
-  short_description: "按Benjamin Franklin的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $benjamin-franklin to analyze this situation in Benjamin Franklin式思路，并给出可执行建议。"

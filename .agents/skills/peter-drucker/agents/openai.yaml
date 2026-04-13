@@ -1,4 +1,0 @@
-interface:
-  display_name: "Peter Drucker"
-  short_description: "按Peter Drucker的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $peter-drucker to analyze this situation in Peter Drucker式思路，并给出可执行建议。"

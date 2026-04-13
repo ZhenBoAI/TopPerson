@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jensen Huang"
+  short_description: "按Jensen Huang的方法论分析问题并给出可执行建议"
+  default_prompt: "Use $jensen-huang-skill to analyze this situation with the method of Jensen Huang and return a quick judgment, action plan, conversation draft, or 30-day plan."

@@ -1,4 +1,4 @@
 interface:
   display_name: "Person Skill Name"
   short_description: "将某个人物的方法论整理为可执行的分析与行动建议"
-  default_prompt: "Use $person-skill-name to analyze this situation in this person's style and give practical next steps."
+  default_prompt: "Use $person-skill-name to analyze this situation with the method of this person and return a quick judgment, action plan, conversation draft, or 30-day plan."

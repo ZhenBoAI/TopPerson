@@ -1,4 +1,0 @@
-interface:
-  display_name: "Warren Buffett"
-  short_description: "按Warren Buffett的方法论分析问题并给出可执行建议"
-  default_prompt: "Use $warren-buffett to analyze this situation in Warren Buffett式思路，并给出可执行建议。"
