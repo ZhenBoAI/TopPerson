@@ -2,61 +2,166 @@
 
 # TopPerson
 
-`TopPerson` is an open-source repository of person-based AI skills.
+> Turn top people's methods into AI skills you can actually use.
+>
+> Not a quote dump.  
+> Not fandom.  
+> Not roleplay for its own sake.  
+> TopPerson is a repository of person-based methods for real decisions and real action.
 
-It helps AI answer a practical question:
+If you want to ask questions like these:
 
-`How would a top person judge, decide, and act in this situation?`
+- How would Zeng Guofan stabilize a chaotic team?
+- How would Richard Feynman help me truly understand a topic?
+- How would Warren Buffett judge whether this opportunity is worth doing?
+- How would Wang Yangming reduce overthinking and push toward action?
 
-## Contents
+This repository is built for that.
 
-- [What It Does](#what-it-does)
-- [Main Use Cases](#main-use-cases)
-- [Current Skills](#current-skills)
-- [Distillation Dataset](#distillation-dataset)
-- [Distillation Roadmap](#distillation-roadmap)
-- [How To Use](#how-to-use)
-- [How To Propose A New Skill](#how-to-propose-a-new-skill)
-- [Contribution Rules](#contribution-rules)
-- [Validation](#validation)
-- [License](#license)
+```mermaid
+flowchart LR
+  A["Primary Material<br/>books, letters, speeches, interviews"] --> B["Method Distillation"]
+  B --> C["TopPerson Skill"]
+  C --> D["Life"]
+  C --> E["Study"]
+  C --> F["Work"]
+  C --> G["Life Guidance"]
+```
 
-## What It Does
+## In 10 Seconds
 
-TopPerson turns biographies, primary works, letters, speeches, interviews, and credible research into reusable skills.
+- `TopPerson` is an open-source repository of person-based AI skills.
+- It turns a person's judgment style, learning method, and way of acting into modern, lawful, usable AI behavior.
+- The repository currently contains `45` skill directories under [`.agents/skills`](./.agents/skills).
+- You can use these skills directly in skill-aware AI environments, or load a `SKILL.md` into your own app as a system prompt.
 
-This repository is for:
+## Why This Repo Is Worth Using
 
-- practical judgment
-- action planning
-- modern translation of historical or modern methods
+### 1. It focuses on method, not imitation
 
-This repository is not for:
+The goal is not to make AI "sound like" a historical or modern figure.  
+The goal is to make AI reason and act with the person's recurring method.
 
-- quote collections
-- fandom
-- empty motivation
-- harmful or manipulative guidance
+### 2. It starts from sources, not internet folklore
 
-## Main Use Cases
+Each skill is meant to be grounded in primary works, credible research, and explicit source boundaries whenever possible.
 
-You can use TopPerson skills to think through:
+### 3. It produces action, not admiration
 
-- `Life`: self-discipline, habits, emotional stability, long-term direction
-- `Study`: learning methods, focus, explanation, practice, curiosity
-- `Work`: execution, management, communication, product judgment, decision-making
-- `Life guidance`: major choices, setbacks, transitions, values, how to act next
+A good TopPerson skill should end in something usable, such as:
 
-## Current Skills
+- what to do first
+- what to avoid
+- a 7-day plan
+- a 30-day plan
+- a draft message
 
-Current repository status: `45` skill directories in [`.agents/skills`](./.agents/skills).
+### 4. It has guardrails
 
-### Reference Skill
+This repo does not romanticize power, myth, manipulation, or harmful conduct. Historical context is translated into modern institutions and norms.
+
+## What You Can Use It For
+
+| Area | Typical Problems |
+| --- | --- |
+| `Life` | self-discipline, habits, emotions, long-term rhythm, recovery from setbacks |
+| `Study` | understanding, explaining, practicing, building a learning method |
+| `Work` | execution, management, communication, product judgment, decision-making |
+| `Life guidance` | major choices, transitions, values, what to do next |
+
+## How To Start
+
+### Option A: Use it directly in a skill-aware AI environment
+
+If your environment supports `.agents/skills`, the fastest path is to invoke a skill directly:
+
+```text
+Use $zengguofan-skill to analyze this situation and give me actionable advice.
+Use $richardfeynman-skill to help me learn this topic clearly.
+Use $wangyangming-skill to help me stop overthinking and start acting.
+Use $warrenbuffett-skill to judge whether this opportunity is worth doing.
+```
+
+### Option B: Use it in your own AI product
+
+The minimum integration path is:
+
+1. choose a skill
+2. read its `SKILL.md`
+3. inject that file as a system/developer prompt
+4. append the user's actual question
+
+In other words, this repo can be used both as a ready-to-use skill library and as a methods layer for your own AI application.
+
+### Naming Convention
+
+Current skill IDs follow this format:
+
+```text
+personname-skill
+```
+
+Examples:
+
+- `zengguofan-skill`
+- `richardfeynman-skill`
+- `wangyangming-skill`
+- `leijun-skill`
+
+## Repository Structure
+
+```text
+.agents/skills/<skill-id>/
+  SKILL.md
+  references/
+    source-map.md
+    principles.md
+    demo.zh-CN.md
+    demo.en.md
+    research.zh-CN.md
+    research.en.md
+  agents/
+    openai.yaml
+
+docs/
+  person-catalog*.md
+  person-roadmap*.md
+  review-checklist*.md
+
+data/
+  person-catalog.json
+
+scripts/
+  validate_skills.py
+  validate_person_catalog.py
+  validate_skill_content.py
+```
+
+The three files worth opening first are usually:
+
+- [`SKILL.md`](./.agents/skills/zengguofan-skill/SKILL.md): the core method and response shape
+- `references/source-map.md`: source hierarchy and confidence
+- `references/principles.md`: distilled principles and scenario mapping
+
+## Featured Skills
+
+| Skill | Best For | Example Ask |
+| --- | --- | --- |
+| [`zengguofan-skill`](./.agents/skills/zengguofan-skill/SKILL.md) | discipline, team order, long-horizon cleanup, crisis handling | "Use Zeng Guofan's method to make me a 30-day reset plan." |
+| [`richardfeynman-skill`](./.agents/skills/richardfeynman-skill/SKILL.md) | learning, explanation, understanding, exposing weak spots | "Use Richard Feynman's method to help me truly understand this topic." |
+| [`wangyangming-skill`](./.agents/skills/wangyangming-skill/SKILL.md) | reducing inner friction, moving from thought to action | "Use Wang Yangming's method to stop my overthinking and push me into action." |
+| [`warrenbuffett-skill`](./.agents/skills/warrenbuffett-skill/SKILL.md) | judgment under uncertainty, patience, filtering noise | "Judge whether this opportunity is worth doing using Buffett's method." |
+| [`leijun-skill`](./.agents/skills/leijun-skill/SKILL.md) | product judgment, execution, efficiency, clear communication | "Use Lei Jun's method to judge this product direction." |
+| [`luoxiang-skill`](./.agents/skills/luoxiang-skill/SKILL.md) | principled reasoning, boundaries, public explanation | "Use Luo Xiang's method to explain the principle and boundary in this case." |
+
+## Browse Current Skills
+
+<details>
+<summary>View the current 45 skills</summary>
+
+### Established
 
 - [`zengguofan-skill`](./.agents/skills/zengguofan-skill/SKILL.md): Qing statesman and military leader known for self-discipline, team building, and long-horizon order.
-
-### Other Available Skills
-
 - [`andygrove-skill`](./.agents/skills/andygrove-skill/SKILL.md): Former Intel CEO known for paranoid management and execution systems.
 - [`benjaminfranklin-skill`](./.agents/skills/benjaminfranklin-skill/SKILL.md): Statesman, inventor, and writer known for habits, self-improvement, and pragmatism.
 - [`caocao-skill`](./.agents/skills/caocao-skill/SKILL.md): Three Kingdoms statesman, warlord, and poet known for strategy and talent use.
@@ -90,7 +195,7 @@ Current repository status: `45` skill directories in [`.agents/skills`](./.agent
 - [`zhangyiming-skill`](./.agents/skills/zhangyiming-skill/SKILL.md): ByteDance founder known for rational decision-making, information processing, and mechanism design.
 - [`zhugeliang-skill`](./.agents/skills/zhugeliang-skill/SKILL.md): Three Kingdoms strategist and statesman known for planning discipline, diligence, and conscientious execution.
 
-### Newly Added Draft Skills
+### Draft Skills
 
 - [`confucius-skill`](./.agents/skills/confucius-skill/SKILL.md): Classical Chinese teacher and thinker known for conduct, learning, role responsibility, and everyday order.
 - [`hushi-skill`](./.agents/skills/hushi-skill/SKILL.md): Modern Chinese writer and thinker known for evidence, skepticism, and plain expression.
@@ -105,88 +210,26 @@ Current repository status: `45` skill directories in [`.agents/skills`](./.agent
 - [`satyanadella-skill`](./.agents/skills/satyanadella-skill/SKILL.md): Microsoft CEO known for empathy, learning culture, and strategic renewal.
 - [`danielkahneman-skill`](./.agents/skills/danielkahneman-skill/SKILL.md): Psychologist known for bias reduction, decision hygiene, and noise control.
 
-See also:
+</details>
 
-- English backlog: [`docs/person-backlog.md`](./docs/person-backlog.md)
-- Chinese backlog: [`docs/person-backlog.zh-CN.md`](./docs/person-backlog.zh-CN.md)
+## Dataset And Roadmap
 
-## Distillation Dataset
+If you want to expand beyond the current skill set, keep going here:
 
-For broader person collection beyond the current skill directories:
+- person catalog guide: [`docs/person-catalog.md`](./docs/person-catalog.md)
+- person catalog data: [`data/person-catalog.json`](./data/person-catalog.json)
+- person roadmap: [`docs/person-roadmap.md`](./docs/person-roadmap.md)
+- Chinese versions: [`docs/person-catalog.zh-CN.md`](./docs/person-catalog.zh-CN.md), [`docs/person-roadmap.zh-CN.md`](./docs/person-roadmap.zh-CN.md)
 
-- English guide: [`docs/person-catalog.md`](./docs/person-catalog.md)
-- Chinese guide: [`docs/person-catalog.zh-CN.md`](./docs/person-catalog.zh-CN.md)
-- JSON data: [`data/person-catalog.json`](./data/person-catalog.json)
+## Want To Add A New Person Skill?
 
-## Distillation Roadmap
+The shortest path is:
 
-If you want the next recommended batches instead of the full raw catalog:
-
-- English roadmap: [`docs/person-roadmap.md`](./docs/person-roadmap.md)
-- Chinese roadmap: [`docs/person-roadmap.zh-CN.md`](./docs/person-roadmap.zh-CN.md)
-
-## How To Use
-
-### 1. Browse skills
-
-Open [`.agents/skills`](./.agents/skills) and choose a person.
-
-### 2. Invoke a skill
-
-Example:
-
-```text
-Use $zengguofan-skill to analyze this situation and give me actionable advice.
-```
-
-### 3. Ask by scenario
-
-Example prompts:
-
-```text
-Use $wangyangming-skill to help me stop overthinking and start acting.
-Use $richardfeynman-skill to help me learn this topic clearly.
-Use $leijun-skill to help me judge this product direction.
-Use $duanyongping-skill to help me decide whether this opportunity is worth doing.
-```
-
-### 4. Pick a task mode
-
-Most person skills now support four common modes:
-
-- `quick-judgment`
-- `action-plan`
-- `conversation-draft`
-- `30-day-plan`
-
-Examples:
-
-```text
-Use $zengguofan-skill to give me a quick judgment on this team problem.
-Use $confucius-skill to draft what I should say in this conflict.
-Use $richardfeynman-skill to make me a 30-day learning plan for this topic.
-```
-
-### 5. Read the built-in examples
-
-Many skills now include extra reference files such as:
-
-- `references/demo.en.md`
-- `references/demo.zh-CN.md`
-- `references/research.en.md`
-- `references/research.zh-CN.md`
-
-Use them to see how to ask better questions and what a stronger output shape looks like.
-
-## How To Propose A New Skill
-
-If you want to add a new person skill, use this simple path:
-
-1. Pick a person with real source material.
-2. Explain why ordinary people can use the method.
-3. State the main use case.
-4. List primary and secondary sources.
-5. Open an issue or PR.
+1. pick a person with strong source material
+2. explain why ordinary users can borrow this person's method
+3. define the main use case
+4. list primary and secondary sources
+5. fill the template and open a PR
 
 Start here:
 
@@ -195,32 +238,16 @@ Start here:
 - [`docs/review-checklist.md`](./docs/review-checklist.md)
 - [`docs/review-checklist.zh-CN.md`](./docs/review-checklist.zh-CN.md)
 
-Recommended template files:
+Template files:
 
 - [`templates/person-skill/SKILL.md`](./templates/person-skill/SKILL.md)
 - [`templates/person-skill/references/source-map.md`](./templates/person-skill/references/source-map.md)
 - [`templates/person-skill/references/principles.md`](./templates/person-skill/references/principles.md)
 - [`templates/person-skill/agents/openai.yaml`](./templates/person-skill/agents/openai.yaml)
 
-## Contribution Rules
-
-Good contributions should be:
-
-- source-based
-- method-first
-- modern and safe
-- usable by AI
-
-Please avoid:
-
-- quote dumps
-- myth-making
-- fake sources
-- unlawful, deceptive, or harmful advice
-
 ## Validation
 
-Run this before opening a PR:
+Before opening a PR, run:
 
 ```bash
 python3 scripts/validate_skills.py
